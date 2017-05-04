@@ -9,3 +9,6 @@ To start, install npm and then run the following two commands:
 npm install
 
 npm start
+
+# Demo
+Find the live demo [here](https://advancedcartographywebcomponent.github.io/ACWC-WebComponent/)
