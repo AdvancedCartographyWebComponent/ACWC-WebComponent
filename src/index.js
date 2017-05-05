@@ -4,8 +4,16 @@ import App from './App';
 import './index.css';
 import './app.css';
 import './tree-view.css';
+import Reducer from '../reducer/reducer'
+const Provider=require('react-redux').Provider;
+const createStore=require('redux').createStore;
+
+var store=createStore(Reducer);
+
 
 ReactDOM.render(
-  <App />,
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );

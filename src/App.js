@@ -1,60 +1,24 @@
 var React = require('react'),
   TreeMenu = require('../tree'),
-  TreeNode = require('../tree').TreeNode,
-  TreeMenuUtils = require('../tree').Utils,
   Immutable = require('immutable'),
   _ = require('lodash');
-
+let ReactRedux = require('react-redux');
+let actions = require('../action/action');
+import { bindActionCreators } from 'redux'
 var CSSTransitionGroup = require('react-addons-css-transition-group');
 
 var App = React.createClass({
 
   getInitialState: function() {
+    console.log("app initial state called");
     return {
-      lastAction1: null,
-      lastAction2: null,
-      lastAction3: null,
-
-      dynamicTreeDataMap: {
-        "Option 1" : {
-          checked: false,
-          checkbox: true,
-          children: {
-            "Sub Option 1" : {
-              checked: false,
-              checkbox: true,
-            },
-            "Sub Option 2" : {
-              checked: false,
-              checkbox: true,
-              children: {
-                "Sub-Sub Option 1" : {
-                  checked: false,
-                  checkbox: true
-                },
-                "Sub-Sub Option 2" : {
-                  checked: false,
-                  checkbox: true
-                }
-              }
-            }
-          }
-        },
-        "Option 2" : {
-          checked: false,
-          checkbox: true
-        }
-      },
-
-
     };
   },
 
   render: function() {
 
     var dynamicExample = this._getExamplePanel("Dynamic Thésaurus", this._getDynamicTreeExample());
-
-
+    //console.log(content);
     return <div className="container">
 
       <div className="row">
@@ -65,7 +29,7 @@ var App = React.createClass({
 
       <div className="row">
         <div className="col-lg-12 hero">
-          <h3>Check out the code for this demo <a href="https://github.com/">here</a>.</h3>
+          <h3>Check out the code for this demo <a href="https://github.com/AdvancedCartographyWebComponent/ACWC-WebComponent">here</a>.</h3>
         </div>
       </div>
 
@@ -78,7 +42,7 @@ var App = React.createClass({
       <div className="row">
         <div className="col-lg-3">
           <CSSTransitionGroup transitionEnterTimeout={500} transitionName="last-action" transitionLeave={false}>
-            {this._getLastActionNode("5")}
+            {this._getLastActionNode()}
           </CSSTransitionGroup>
         </div>
       </div>
@@ -87,16 +51,16 @@ var App = React.createClass({
 
   },
 
-  _getLastActionNode: function (col) {
+  _getLastActionNode: function () {
 
-    var lastActionNode = <div className="text-center alert alert-success tree-event-alert">{"Waiting for interaction"}</div>,
-      key = "lastAction" + col;
+    var lastActionNode = <div className="text-center alert alert-success tree-event-alert">{"Waiting for interaction"}</div>;
 
-    var action = this.state[key];
 
+    var action = this.props.lastChange;
+    console.log("lastchange",this.props);
     if (action) {
       lastActionNode = (
-        <div className="text-center alert alert-success tree-event-alert" key={"lastAction_" + col + "_" + action.time}>
+        <div className="text-center alert alert-success tree-event-alert" key={"lastAction_" + "_" + action.time}>
           <h3>Event Received:</h3>
           <div><strong>{action.event}</strong></div>
           <h3><code>{"<TreeNode/>"}</code> Affected: </h3>
@@ -120,10 +84,10 @@ var App = React.createClass({
       <TreeMenu
         expandIconClass="fa fa-chevron-right"
         collapseIconClass="fa fa-chevron-down"
-        onTreeNodeClick={this._setLastActionState.bind(this, "5", "clicked")}
-        onTreeNodeCollapseChange={this._handleDynamicObjectTreeNodePropChange.bind(this, 5, "dynamicTreeDataMap","collapsed")}
-        onTreeNodeCheckChange={this._handleDynamicObjectTreeNodePropChange.bind(this, 5, "dynamicTreeDataMap","checked")}
-        data={this.state.dynamicTreeDataMap} />
+        onTreeNodeClick={this._setLastActionState.bind(this, "clicked")}
+        onTreeNodeCollapseChange={this._handleDynamicObjectTreeNodePropChange.bind(this,"collapsed")}
+        onTreeNodeCheckChange={this._handleDynamicObjectTreeNodePropChange.bind(this,"checked")}
+        data={this.props.treeData} />
     );
 
   },
@@ -142,9 +106,9 @@ var App = React.createClass({
   },
 
 
-  _handleDynamicObjectTreeNodePropChange: function (messageWindowKey, stateKey, propName, lineage) {
+  _handleDynamicObjectTreeNodePropChange: function (propName, lineage) {
 
-    this._setLastActionState(propName, messageWindowKey, lineage);
+    this._setLastActionState(propName, lineage);
 
     //Get a node path that includes children, given a key
     function getNodePath(nodeKey) {
@@ -162,7 +126,7 @@ var App = React.createClass({
       })).flatten().initial().initial().initial().value();
 
     }
-    var oldState = Immutable.fromJS(this.state[stateKey]);
+    var oldState = Immutable.fromJS(this.props.treeData);
     var nodePath = getNodePath(lineage),
       nodeSiblingPath = getSiblingNodePath(lineage),
       keyPaths = [nodePath.concat([propName])],
@@ -238,15 +202,18 @@ var App = React.createClass({
       if(keySiblingPaths.length>1){state.setIn(keySiblingPaths[0], newParentPropState);}
     });
 
-    var mutation = {};
+    //var mutation = {};
 
-    mutation[stateKey] = newState.toJS();
-
-    this.setState(mutation);
+    //mutation[stateKey]
+    newState.toJS();
+    //console.log("newState",newState);
+    //console.log("change node state",mutation);
+    this.props.actions.updateTreeData(newState.toJS());
+    //this.setState(mutation);
 
   },
 
-  _setLastActionState: function (action, col, node) {
+  _setLastActionState: function (action, node) {
 
     var toggleEvents = ["collapsed", "checked", "selected"];
 
@@ -256,18 +223,27 @@ var App = React.createClass({
 
     console.log("Controller View received tree menu " + action + " action: " + node.join(" > "));
 
-    var key = "lastAction" + col;
+    var key = "lastAction";
 
-    var mutation = {};
-    mutation[key] = {
+    var mutation = {
       event: action,
       node: node.join(" > "),
       time: new Date().getTime()
     };
-
-    this.setState(mutation)
+    console.log("set last state",mutation);
+    //call redux
+    this.props.actions.setLastChangeState(mutation);
   }
 });
 
+const mapStateToProps = state => ({
+  treeData:state.treeData,
+  lastChange:state.lastChange,
+})
 
-module.exports = App;
+const mapDispatchToProps = dispatch => ({
+    actions: bindActionCreators(actions, dispatch)
+})
+module.exports = ReactRedux.connect(
+mapStateToProps,mapDispatchToProps
+)(App);
