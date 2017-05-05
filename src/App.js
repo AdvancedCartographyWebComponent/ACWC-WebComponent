@@ -2,8 +2,9 @@ var React = require('react'),
   TreeMenu = require('../tree'),
   Immutable = require('immutable'),
   _ = require('lodash');
-let ReactRedux = require('react-redux');
-let actions = require('../action/action');
+var ReactRedux = require('react-redux');
+var actions = require('../action/action');
+//import * as actions from '../action/action'
 import { bindActionCreators } from 'redux'
 var CSSTransitionGroup = require('react-addons-css-transition-group');
 

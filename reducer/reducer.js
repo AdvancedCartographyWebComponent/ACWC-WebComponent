@@ -35,7 +35,7 @@ const initialState = {
   }// Loads default language content (en) as an initial state
 };
 
-let reducer = function (state = initialState, action) {
+var reducer = function (state = initialState, action) {
   switch (action.type) {
     case actionTypes.CLICK:
       console.log("click :",action.id);
