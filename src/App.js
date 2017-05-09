@@ -6,6 +6,7 @@ var ReactRedux = require('react-redux');
 var actions = require('../action/action');
 //import * as actions from '../action/action'
 import { bindActionCreators } from 'redux'
+import { withRouter } from 'react-router-dom'
 var CSSTransitionGroup = require('react-addons-css-transition-group');
 
 var App = React.createClass({
@@ -17,7 +18,7 @@ var App = React.createClass({
   },
 
   render: function() {
-
+    console.log("test router",this.props.location);
     var dynamicExample = this._getExamplePanel("Dynamic Thésaurus", this._getDynamicTreeExample());
     //console.log(content);
     return <div className="container">
@@ -44,6 +45,13 @@ var App = React.createClass({
         <div className="col-lg-3">
           <CSSTransitionGroup transitionEnterTimeout={500} transitionName="last-action" transitionLeave={false}>
             {this._getLastActionNode()}
+          </CSSTransitionGroup>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-3">
+          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="last-search" transitionLeave={false}>
+            {this._getUrlSearch()}
           </CSSTransitionGroup>
         </div>
       </div>
@@ -75,7 +83,29 @@ var App = React.createClass({
 
   },
 
+  _getUrlSearch: function () {
 
+    var lastUrlSearchNode = <div className="text-center alert alert-success tree-event-alert">{"Waiting for search. Add ?url = xxxx to the url"}</div>;
+
+
+    var search = this.props.location.search;
+    console.log("lastSearch",search);
+    if (search) {
+      var decodeURI = decodeURIComponent(search);
+      console.log("decodedUrl",decodeURI);
+      lastUrlSearchNode = (
+        <div className="text-center alert alert-success tree-event-alert" key={"lastSearch"}>
+          <h3>Search Received:</h3>
+          <h3>decodedURL: </h3>
+          <div><strong>{decodeURI.slice(5)}</strong></div>
+        </div>);
+    } else {
+
+    }
+
+    return lastUrlSearchNode;
+
+  },
 
 
 
@@ -245,6 +275,6 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
     actions: bindActionCreators(actions, dispatch)
 })
-module.exports = ReactRedux.connect(
+module.exports = withRouter(ReactRedux.connect(
 mapStateToProps,mapDispatchToProps
-)(App);
+)(App));
