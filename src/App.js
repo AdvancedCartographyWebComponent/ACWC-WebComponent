@@ -9,7 +9,7 @@ import { bindActionCreators } from 'redux'
 import { withRouter } from 'react-router-dom'
 import axios from 'axios'
 var CSSTransitionGroup = require('react-addons-css-transition-group');
-
+var isQuery = false;
 var App = React.createClass({
 
   getInitialState: function() {
@@ -21,8 +21,10 @@ var App = React.createClass({
   render: function() {
     console.log("test router",this.props.location);
     console.log("treeData",JSON.stringify(this.props.treeData));
-    if(this.props.location.search.length<=0){
+
+    if(this.props.location.search.length<=0&&!isQuery){
       this.props.actions.useDefaultData();
+      isQuery = true;
     }
     var dynamicExample = this._getExamplePanel("Dynamic Thésaurus", this._getDynamicTreeExample());
     //console.log(content);
@@ -121,8 +123,8 @@ var App = React.createClass({
       "type": "FeatureCollection",
       "features": []
     };
-    console.log("state isQuery",this.state.isQuery);
-    if(!this.state.isQuery){
+    console.log("state isQuery",isQuery);
+    if(!isQuery){
       axios({
       method: 'get',
       url: url.slice(5),
@@ -147,9 +149,7 @@ var App = React.createClass({
             numUser: res.data.features.length,
             geojson: res.data
           });*/
-          cur.setState({
-            isQuery:true
-          })
+          isQuery=true;
           cur.props.actions.updateTreeData(res.data);
 
         }

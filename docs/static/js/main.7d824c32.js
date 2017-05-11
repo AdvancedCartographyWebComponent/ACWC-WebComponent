@@ -19866,6 +19866,7 @@
 	//import * as actions from '../action/action'
 	
 	var CSSTransitionGroup = __webpack_require__(486);
+	var isQuery = false;
 	
 	var _ref = React.createElement(
 	  'div',
@@ -19964,8 +19965,10 @@
 	  render: function render() {
 	    console.log("test router", this.props.location);
 	    console.log("treeData", JSON.stringify(this.props.treeData));
-	    if (this.props.location.search.length <= 0) {
+	
+	    if (this.props.location.search.length <= 0 && !isQuery) {
 	      this.props.actions.useDefaultData();
+	      isQuery = true;
 	    }
 	    var dynamicExample = this._getExamplePanel("Dynamic Thésaurus", this._getDynamicTreeExample());
 	    //console.log(content);
@@ -20086,8 +20089,8 @@
 	      "type": "FeatureCollection",
 	      "features": []
 	    };
-	    console.log("state isQuery", this.state.isQuery);
-	    if (!this.state.isQuery) {
+	    console.log("state isQuery", isQuery);
+	    if (!isQuery) {
 	      (0, _axios2.default)({
 	        method: 'get',
 	        url: url.slice(5),
@@ -20112,9 +20115,7 @@
 	            numUser: res.data.features.length,
 	            geojson: res.data
 	          });*/
-	          cur.setState({
-	            isQuery: true
-	          });
+	          isQuery = true;
 	          cur.props.actions.updateTreeData(res.data);
 	        }
 	      });
@@ -65090,4 +65091,4 @@
 
 /***/ }
 /******/ ])));
-//# sourceMappingURL=main.65bf4cfa.js.map
+//# sourceMappingURL=main.7d824c32.js.map
