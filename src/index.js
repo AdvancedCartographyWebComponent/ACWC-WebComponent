@@ -13,8 +13,15 @@ import {
 
 const Provider=require('react-redux').Provider;
 const createStore=require('redux').createStore;
-
 var store=createStore(Reducer);
+/*
+function to generate the right treeData
+const name = ["hello1","hello2"];
+var test ={};
+name.map((val,index)=>{
+  test[val]=val;
+});
+console.log(JSON.stringify(test));*/
 
 
 ReactDOM.render(

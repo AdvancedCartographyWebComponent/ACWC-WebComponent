@@ -7,6 +7,7 @@ var actions = require('../action/action');
 //import * as actions from '../action/action'
 import { bindActionCreators } from 'redux'
 import { withRouter } from 'react-router-dom'
+import axios from 'axios'
 var CSSTransitionGroup = require('react-addons-css-transition-group');
 
 var App = React.createClass({
@@ -19,6 +20,10 @@ var App = React.createClass({
 
   render: function() {
     console.log("test router",this.props.location);
+    console.log("treeData",JSON.stringify(this.props.treeData));
+    if(this.props.location.search.length<=0){
+      this.props.actions.useDefaultData();
+    }
     var dynamicExample = this._getExamplePanel("Dynamic Thésaurus", this._getDynamicTreeExample());
     //console.log(content);
     return <div className="container">
@@ -93,6 +98,7 @@ var App = React.createClass({
     if (search) {
       var decodeURI = decodeURIComponent(search);
       console.log("decodedUrl",decodeURI);
+      this._getUrlData(search);
       lastUrlSearchNode = (
         <div className="text-center alert alert-success tree-event-alert" key={"lastSearch"}>
           <h3>Search Received:</h3>
@@ -106,12 +112,55 @@ var App = React.createClass({
     return lastUrlSearchNode;
 
   },
+  _getUrlData: function(url){
+    var cur = this;
+    var decodeURI = decodeURIComponent(url);
+    decodeURI = decodeURI.slice(5);
+    console.log("search head",url.slice(1,4));
+    this.geoCollection = {
+      "type": "FeatureCollection",
+      "features": []
+    };
+    console.log("state isQuery",this.state.isQuery);
+    if(!this.state.isQuery){
+      axios({
+      method: 'get',
+      url: url.slice(5),
+      headers: {
+          'Accept': 'application/ld+json, application/json',
+          'Content-Type': 'application/ld+json, application/json'
+      }
+    }).then(function(res) {
+      if(url.slice(1,4)=="sql"){
+        console.log("data from url",res.data.results.bindings);
+        //cur.transformSparqlQueryToGeoJSON(res.data.results.bindings);
+        //cur.props.actions.getDataFromUrl(cur.geoCollection);
+        //console.log(cur.geoCollection);
+        /*cur.setState({
+          numUser: cur.geoCollection.features.length,
+          geojson: cur.geoCollection
+        });*/}
+        else{
+          console.log("data from url",res.data);
+          /*cur.props.actions.getDataFromUrl(res.data);
+          cur.setState({
+            numUser: res.data.features.length,
+            geojson: res.data
+          });*/
+          cur.setState({
+            isQuery:true
+          })
+          cur.props.actions.updateTreeData(res.data);
 
+        }
+    });}
+  },
 
 
   _getDynamicTreeExample: function () {
 
-    return  (
+    return this.props.treeData?
+    (
       <TreeMenu
         expandIconClass="fa fa-chevron-right"
         collapseIconClass="fa fa-chevron-down"
@@ -119,7 +168,9 @@ var App = React.createClass({
         onTreeNodeCollapseChange={this._handleDynamicObjectTreeNodePropChange.bind(this,"collapsed")}
         onTreeNodeCheckChange={this._handleDynamicObjectTreeNodePropChange.bind(this,"checked")}
         data={this.props.treeData} />
-    );
+    ):
+    (<h2>loading data from url</h2>);
+
 
   },
 

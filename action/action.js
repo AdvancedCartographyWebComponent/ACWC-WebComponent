@@ -18,7 +18,12 @@ let actions = {
       type: actionTypes.UpdateTreeData,
       newdata
     }
-  }
+  },
+  useDefaultData() {
+    return {
+      type: actionTypes.UseDefaultData
+    }
+  },
 };
 module.exports = actions;
 /*

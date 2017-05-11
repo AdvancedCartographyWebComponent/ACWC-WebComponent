@@ -10,7 +10,9 @@
     "react-redux": "^5.0.3",
     "react-router":"^4.1.1",
     "react-router-dom":"^4.1.1",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "axios": "^0.16.1",
+    "json-loader": "^0.5.4"
     },
   "devDependencies": {
     "immutable": "^3.6.2",

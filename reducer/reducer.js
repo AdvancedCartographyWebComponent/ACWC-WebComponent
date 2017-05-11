@@ -1,38 +1,38 @@
 const actionTypes = require('../actiontype/actionType');
-
-const initialState = {
-  content: "hello",
-  lastChange:null,
-  treeData : {
-    "Option 1" : {
-      checked: false,
-      checkbox: true,
-      children: {
-        "Sub Option 1" : {
-          checked: false,
-          checkbox: true,
-        },
-        "Sub Option 2" : {
-          checked: false,
-          checkbox: true,
-          children: {
-            "Sub-Sub Option 1" : {
-              checked: false,
-              checkbox: true
-            },
-            "Sub-Sub Option 2" : {
-              checked: false,
-              checkbox: true
-            }
+const defaultTreeData = {
+  "Option 1" : {
+    checked: false,
+    checkbox: true,
+    children: {
+      "Sub Option 1" : {
+        checked: false,
+        checkbox: true,
+      },
+      "Sub Option 2" : {
+        checked: false,
+        checkbox: true,
+        children: {
+          "Sub-Sub Option 1" : {
+            checked: false,
+            checkbox: true
+          },
+          "Sub-Sub Option 2" : {
+            checked: false,
+            checkbox: true
           }
         }
       }
-    },
-    "Option 2" : {
-      checked: false,
-      checkbox: true
     }
-  }// Loads default language content (en) as an initial state
+  },
+  "Option 2" : {
+    checked: false,
+    checkbox: true
+  }
+};
+const initialState = {
+  content: "hello",
+  lastChange:null,
+  treeData : null// Loads default language content (en) as an initial state
 };
 
 var reducer = function (state = initialState, action) {
@@ -52,6 +52,11 @@ var reducer = function (state = initialState, action) {
       console.log("UpdateTreeData :",action.newdata);
       return Object.assign({}, state, {
         treeData:action.newdata
+      })
+    case actionTypes.UseDefaultData:
+      console.log("UseDefaultData",defaultTreeData);
+      return Object.assign({}, state, {
+        treeData:defaultTreeData
       })
     default:
       return state;

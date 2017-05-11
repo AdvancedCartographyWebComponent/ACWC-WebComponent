@@ -1,5 +1,6 @@
 module.exports = {
   CLICK: 'CLICK',
   SetLastChangeState: 'SetLastChangeState',
-  UpdateTreeData : "UpdateTreeData"
+  UpdateTreeData : "UpdateTreeData",
+  UseDefaultData : "UseDefaultData",
 };
