@@ -1,0 +1,30 @@
+# HTTP/1.1 200 OK
+# Access-Control-Allow-Origin: *
+# Access-Control-Allow-Headers: *
+# Access-Control-Allow-Methods: *
+# Content-Length: 697
+# Content-Type: application/ld+json
+# Date: Thu, 04 May 2017 14:21:32 GMT
+
+{
+  "@graph" : [ {
+    "@id" : "http://192.168.1.33:9000/ldp/ange",
+    "label" : "ange"
+  }, {
+    "@id" : "http://dbpedia.org/resource/Mammal",
+    "@type" : [ "http://192.168.1.33:9000/ldp/", "skos:Concept" ],
+    "narrower" : [ "http://dbpedia.org/resource/Dolphin", "http://dbpedia.org/resource/Monkey" ]
+  } ],
+  "@context" : {
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

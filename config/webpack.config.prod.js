@@ -10,7 +10,7 @@ var homepagePath = require(paths.appPackageJson).homepage;
 var publicPath = homepagePath ? url.parse(homepagePath).pathname : '/';
 if (!publicPath.endsWith('/')) {
   // Prevents incorrect paths in file-loader
-  publicPath += '/';
+  publicPath += '';
 }
 
 module.exports = {
@@ -77,6 +77,7 @@ module.exports = {
         include: [paths.appSrc, paths.appNodeModules],
         loader: 'file',
         query: {
+          publicPath :'../../',
           name: 'static/media/[name].[hash:8].[ext]'
         }
       },
@@ -104,6 +105,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: true,
       template: paths.appHtml,
+      favicon: paths.appFavicon,
       minify: {
         removeComments: true,
         collapseWhitespace: true,

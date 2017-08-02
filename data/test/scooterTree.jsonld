@@ -1,0 +1,19 @@
+{
+  "@graph" : [ {
+    "@id" : "82",
+    "broader" : "ScooterList"
+  },{
+    "@id" : "97",
+    "broader" : "ScooterList"
+  },{
+    "@id" : "71",
+    "broader" : "ScooterList"
+  },{
+    "@id" : "73",
+    "broader" : "ScooterList"
+  },{
+    "@id" : "88",
+    "broader" : "ScooterList"
+  }]
+}
+

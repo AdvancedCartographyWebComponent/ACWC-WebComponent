@@ -26,9 +26,10 @@ if (isInCreateReactAppSource) {
   // create-react-app development: we're in ./config/
   module.exports = {
     appBuild: resolveOwn('../build'),
-    appHtml: resolveOwn('../public/index.html'),
+    appHtml: resolveOwn('../template/index.html'),
+    appFavicon: resolveOwn('../template/favicon.ico'),
     appPackageJson: resolveOwn('../package.json'),
-    appSrc: resolveOwn('../src'),
+    appSrc: resolveOwn('../template/src'),
     appNodeModules: resolveOwn('../node_modules'),
     ownNodeModules: resolveOwn('../node_modules')
   };
@@ -36,7 +37,8 @@ if (isInCreateReactAppSource) {
   // before eject: we're in ./node_modules/react-scripts/config/
   module.exports = {
     appBuild: resolveApp('build'),
-    appHtml: resolveOwn('../public/index.html'),
+    appHtml: resolveApp('index.html'),
+    appFavicon: resolveApp('favicon.ico'),
     appPackageJson: resolveApp('package.json'),
     appSrc: resolveApp('src'),
     appNodeModules: resolveApp('node_modules'),
@@ -48,6 +50,7 @@ if (isInCreateReactAppSource) {
   module.exports = {
     appBuild: resolveApp('build'),
     appHtml: resolveApp('index.html'),
+    appFavicon: resolveApp('favicon.ico'),
     appPackageJson: resolveApp('package.json'),
     appSrc: resolveApp('src'),
     appNodeModules: resolveApp('node_modules'),

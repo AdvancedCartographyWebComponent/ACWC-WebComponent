@@ -1,0 +1,17 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX db: <http://dbpedia.org/>
+PREFIX dbc: <http://dbpedia.org/resource/Category:>
+PREFIX http: <http://www.w3.org/2011/http#>
+
+CONSTRUCT {
+    ?C1 skos:broader dbc:World_Heritage_Sites_in_Europe . # World_Heritage_Sites . # dbc:Tourist_attractions .
+    ?C2 skos:broader ?C1 .
+}
+where {
+  GRAPH ?G {
+    ?C1 skos:broader dbc:World_Heritage_Sites_in_Europe . # World_Heritage_Sites . # dbc:Tourist_attractions .
+    ?C2 skos:broader ?C1 .
+  }  
+} # LIMIT 100

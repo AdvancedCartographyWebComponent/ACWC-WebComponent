@@ -1,0 +1,314 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:Rome	rdf:type	dbo:PopulatedPlace .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbr:Rome	rdfs:label	"Rome"@fr ;
+	dbo:abstract	"Rome (en italien Roma, prononc\u00E9 [\u02C8ro\u02D1ma]) est la capitale de l'Italie depuis 1871. Situ\u00E9e au centre-ouest de la p\u00E9ninsule italienne, sur les c\u00F4tes de la mer Tyrrh\u00E9nienne, elle est \u00E9galement la capitale de la province de Rome, de la r\u00E9gion du Latium, et fut celle de l'Empire romain durant plusieurs si\u00E8cles. En 2014, elle compte 2 869 461 habitants \u00E9tablis sur 1 285 km\u00B2, ce qui fait d'elle la commune la plus peupl\u00E9e d'Italie et la plus \u00E9tendue d'Europe apr\u00E8s Moscou et Londres. Son aire urbaine, qui recense 4 321 244 habitants en 2013, est en revanche moins importante que celle de Milan et Naples. Elle pr\u00E9sente en outre la particularit\u00E9 de contenir un \u00C9tat enclav\u00E9 dans son territoire : la Cit\u00E9 du Vatican (Citt\u00E0 del Vaticano), dont le pape est le souverain. L'histoire de Rome s'\u00E9tend sur plus de vingt-huit si\u00E8cles, depuis sa fondation mythique par Romulus en 753av. J.-C. jusqu'\u00E0 son r\u00F4le actuel de capitale de la R\u00E9publique italienne. Second berceau de la civilisation occidentale apr\u00E8s Ath\u00E8nes, la ville fut successivement le centre de la Monarchie romaine, de la R\u00E9publique romaine (509 av. J.-C. \u2013 27 av. J.-C.) puis de l'Empire romain (27av. J.-C. \u2013 476). Durant cette p\u00E9riode, Rome aurait compt\u00E9 entre un et deux millions d'habitants et domine l'Europe, l'Afrique du Nord et le Moyen-Orient tant militairement que culturellement, diffusant dans ces territoires la langue latine, ses arts et techniques ainsi que la religion chr\u00E9tienne. Depuis le Ier si\u00E8cle, elle abrite le si\u00E8ge de l'\u00C9glise catholique romaine, au sein des \u00C9tats pontificaux (752-1870) puis de la Cit\u00E9 du Vatican. Consid\u00E9rablement agrandie par de grands travaux sous Jules C\u00E9sar et surtout sous Auguste, la ville est partiellement d\u00E9truite lors du Grand incendie de Rome - le Circus Maximus notamment. \u00C0 partir du XVe si\u00E8cle, presque tous les papes depuis Nicolas V (1447-1455) perp\u00E9tuent la tradition de l'architecture romaine et ambitionnent de faire de Rome le principal centre culturel et artistique de l'Occident. La ville devient l'un des foyers de la Renaissance italienne, avec Florence et Venise, et donne naissance au style baroque - dont t\u00E9moigne encore son centre historique, class\u00E9 par l'UNESCO comme site du patrimoine mondial. Des artistes comme Michel-Ange, Rapha\u00EBl ou Le Bernin s'y installent et produisent des \u0153uvres telles que la Basilique Saint-Pierre, la Chapelle Sixtine ou les Chambres de Rapha\u00EBl. Au XIXe si\u00E8cle, Rome est le symbole de l'unit\u00E9 italienne et devient la capitale du Royaume d'Italie, puis de la R\u00E9publique apr\u00E8s la Seconde Guerre mondiale. Ville globale, Rome est la troisi\u00E8me destination touristique la plus visit\u00E9e d'Europe derri\u00E8re Londres et Paris. Les mus\u00E9es du Vatican et le Colis\u00E9e sont parmi les sites les plus fr\u00E9quent\u00E9s. Rome compte \u00E9galement de nombreux ponts et fontaines, 900 \u00E9glises, ainsi qu'un grand nombre de mus\u00E9es et d'universit\u00E9s. Outre le tourisme, l'\u00E9conomie de la ville est \u00E9galement orient\u00E9e vers les nouvelles technologies, les m\u00E9dias et les t\u00E9l\u00E9communications depuis les ann\u00E9es 2000. Cern\u00E9e par sept collines, la ville se situe \u00E0 l'embouchure du Tibre et est divis\u00E9e en vingt-deux rioni. Rome a aussi organis\u00E9 les Jeux olympiques d'\u00E9t\u00E9 en 1960."@fr .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix geo:	<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+dbr:Rome	geo:lat	"41.90000152587890625"^^xsd:float ;
+	geo:long	"12.5"^^xsd:float .
+@prefix dct:	<http://purl.org/dc/terms/> .
+@prefix dbc:	<http://dbpedia.org/resource/Category:> .
+dbr:Rome	dct:subject	dbc:Rome .
+dbr:Panarea	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Panarea"@fr ;
+	dbo:abstract	"Panarea est une petite \u00EEle volcanique de la mer Tyrrh\u00E9nienne. Elle fait partie de l'archipel des \u00EEles \u00C9oliennes. La localit\u00E9 de Panarea fait partie de la commune de Lipari, dans la province de Messine."@fr ;
+	geo:lat	"38.637500762939453125"^^xsd:float ;
+	geo:long	"15.066666603088378906"^^xsd:float ;
+	dct:subject	dbc:Aeolian_Islands .
+dbr:Dârjiu	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"D\u00E2rjiu"@fr ;
+	dbo:abstract	"D\u00E2rjiu (en roumain) ou Sz\u00E9kelyderzs (en hongrois) est une commune du jude\u021B de Harghita, en Transylvanie, Roumanie."@fr ;
+	geo:lat	"46.200000762939453125"^^xsd:float ;
+	geo:long	"25.200000762939453125"^^xsd:float ;
+	dct:subject	dbc:Villages_with_fortified_churches_in_Transylvania .
+dbr:Saschiz	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Saschiz"@fr ;
+	dbo:abstract	"Saschiz (en allemand Keisd, Kaisd, Kei\u00DFd, Kai\u00DFd, H\u00FCnenburg, Hujnerschburg, en hongrois Sz\u00E1szk\u00E9zd v\u00E1ra) est une commune roumaine du jude\u021B de Mure\u0219, dans la r\u00E9gion historique de Transylvanie et dans la r\u00E9gion de d\u00E9veloppement du Centre."@fr ;
+	geo:lat	"46.1833343505859375"^^xsd:float ;
+	geo:long	"24.96666717529296875"^^xsd:float ;
+	dct:subject	dbc:Villages_with_fortified_churches_in_Transylvania .
+dbr:Valea_Viilor	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Valea Viilor"@fr ;
+	dbo:abstract	"Valea Viilor (en allemand Wurmloch, en hongrois Nagybaromlak) est une commune du jude\u021B de Sibiu, en Transylvanie, Roumanie."@fr ;
+	geo:lat	"46.083099365234375"^^xsd:float ;
+	geo:long	"24.276899337768554688"^^xsd:float ;
+	dct:subject	dbc:Villages_with_fortified_churches_in_Transylvania .
+dbr:Basiluzzo	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Basiluzzo"@fr ;
+	dbo:abstract	"Basiluzzo est une petite \u00EEle d'origine volcanique d'environ 0,3 km2 faisant partie de l'archipel des \u00EEles \u00C9oliennes au nord de la Sicile."@fr ;
+	geo:lat	"38.663333892822265625"^^xsd:float ;
+	geo:long	"15.113888740539550781"^^xsd:float ;
+	dct:subject	dbc:Aeolian_Islands .
+dbr:Delos	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"D\u00E9los"@fr ;
+	dbo:abstract	"D\u00E9los (en grec moderne : \u0394\u03AE\u03BB\u03BF\u03C2) est l'une des \u00EEles des Cyclades, en Gr\u00E8ce. Minuscule (3,5 km2), aride, inhabit\u00E9e depuis longtemps, elle se situe en face de l'\u00EEle de Rh\u00E9n\u00E9e (14 km2, inhabit\u00E9e) et \u00E0 proximit\u00E9 de Mykonos. Ses pentes sont douces et la colline Cynthe (Kynthos) ne d\u00E9passe pas 113 m. Le port a toujours \u00E9t\u00E9 expos\u00E9 aux vents qui, d\u00E8s qu'ils se l\u00E8vent, rendent l'\u00EEle inaccessible. Dans la partie basse se trouvait jadis un lac sacr\u00E9 d'eau douce, aujourd'hui \u00E0 sec. Elle a jou\u00E9 un r\u00F4le consid\u00E9rable en Gr\u00E8ce antique, lorsqu'elle avait de l'eau potable, tant sur le plan commercial que religieux, et son rayonnement a connu son apog\u00E9e sur le plan religieux au VIe si\u00E8cleav. J.-C. Le site de D\u00E9los a \u00E9t\u00E9 inscrit au patrimoine mondial de l'Unesco en 1990. Elle a connu plusieurs d\u00E9nominations dans l'Antiquit\u00E9 : Lagia (l'\u00AB \u00EEle aux li\u00E8vres \u00BB); Ortygie (l'\u00AB \u00EEle aux cailles \u00BB) ; Prypile (\u00AB porte de feu \u00BB) ; Cynth\u00E8re (l'\u00AB \u00EEle de Cynthia \u00BB, nom carien d'Art\u00E9mis) ou encore P\u00E9lasgie (l'\u00AB \u00EEle des P\u00E9lasges \u00BB). Son nom de D\u00E9los (\u00AB claire \u00BB, \u00AB visible \u00BB) s'explique par la mythologie."@fr ;
+	geo:lat	"37.39333343505859375"^^xsd:float ;
+	geo:long	"25.27111053466796875"^^xsd:float ;
+	dct:subject	dbc:Delos .
+dbr:Blaenavon	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Blaenavon"@fr ;
+	dbo:abstract	"Blaenavon (en gallois : Blaenafon) une ville du county borough de Torfaen, au sud-est du pays de Galles, \u00E0 la source de l'Afon Llwyd, au nord de Pontypool. Ses habitants sont au nombre de 6 349. Elle est sur la liste du patrimoine mondial de l'UNESCO depuis 2000 pour son paysage industriel. Blaenavon voit le jour en 1789 lors de la fondation de l'usine sid\u00E9rurgique Blaenavon Ironworks (dont une partie est aujourd'hui un mus\u00E9e). S'ensuivent des usines d'acier et des mines de charbon, qui font monter la population de la ville jusqu'\u00E0 20 000 \u00E2mes. Depuis la fermeture de l'usine sid\u00E9rurgique en 1900 et de la mine de charbon en 1980, la population a diminu\u00E9 et consiste aujourd'hui pour la plupart de personnes \u00E2g\u00E9es. Depuis quelques ann\u00E9es on essaie d'en faire une seconde book town du pays de Galles (la premi\u00E8re \u00E9tant Hay-on-Wye), mais le projet semble avoir \u00E9chou\u00E9, en partie \u00E0 cause de son isolement et sa difficult\u00E9 d'acc\u00E8s. On y trouve le mus\u00E9e Big Pit, situ\u00E9 \u00E0 l'ancienne mine de charbon."@fr ;
+	geo:lat	"51.77362823486328125"^^xsd:float ;
+	geo:long	"-3.0827798843383789062"^^xsd:float ;
+	dct:subject	dbc:World_Heritage_Sites_in_Wales .
+dbr:Český_Krumlov	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"\u010Cesk\u00FD Krumlov"@fr ;
+	dbo:abstract	"\u010Cesk\u00FD Krumlov (en allemand : Krumau) est une petite ville m\u00E9di\u00E9vale de la r\u00E9gion de Boh\u00EAme-du-Sud, en R\u00E9publique tch\u00E8que, et le chef-lieu du district de \u010Cesk\u00FD Krumlov. Sa population s'\u00E9levait \u00E0 13 193 habitants en 2015. Le centre historique de \u010Cesk\u00FD Krumlov est class\u00E9 au patrimoine mondial par l'Unesco."@fr ;
+	geo:lat	"48.8166656494140625"^^xsd:float ;
+	geo:long	"14.316666603088378906"^^xsd:float ;
+	dct:subject	dbc:Český_Krumlov .
+dbr:Valletta	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"La Valette"@fr ;
+	dbo:abstract	"La Valette, en maltais Il-Belt Valletta ou plus simplement Valletta, distingu\u00E9e par le titre de Citt\u00E0 Umilissima, est la capitale de la R\u00E9publique de Malte. Situ\u00E9e sur la c\u00F4te nord-est de l'\u00EEle de Malte, peupl\u00E9e d'environ 6 600 habitants, les Beltin (au singulier : masculin Belti, f\u00E9minin Beltija), c'est le lieu d'un conseil municipal (Kunsill Lokali) compris dans la r\u00E9gion (Re\u0121jun) Nofsinhar. La Valette est construite \u00E0 partir de 1566 par la volont\u00E9 des grands ma\u00EEtres de l'ordre hospitalier de Saint-Jean de J\u00E9rusalem, ma\u00EEtres de l'archipel de 1530 \u00E0 1798. La ville comporte de nombreux b\u00E2timents de cette \u00E9poque : on y recense 320 monuments sur une superficie de 55 hectares, concentration exceptionnelle dans le monde. La ville est inscrite sur la liste du patrimoine mondial de l'humanit\u00E9 (liste de l'UNESCO) depuis 1980 et sera capitale europ\u00E9enne de la culture en 2018."@fr ;
+	geo:lat	"35.897777557373046875"^^xsd:float ;
+	geo:long	"14.512499809265136719"^^xsd:float ;
+	dct:subject	dbc:Valletta .
+dbr:Nesebar	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Nessebar (ville)"@fr ;
+	dbo:abstract	"Nessebar (en bulgare \u041D\u0435\u0441\u0435\u0431\u044A\u0440, translitt\u00E9ration internationale Neseb\u01CEr, \u00AB M\u00E9ssembrie \u00BB en fran\u00E7ais classique, d'apr\u00E8s son nom grec \u039C\u03B5\u03C3\u03B7\u03BC\u03B2\u03C1\u03AF\u03B1 / Messembria qui signifie \u00AB cit\u00E9 de Melsas \u00BB, est une cit\u00E9 historique de la Bulgarie, de population grecque de l'Antiquit\u00E9 \u00E0 1923, juch\u00E9e sur une presqu'\u00EEle rocheuse s'avan\u00E7ant en mer Noire."@fr ;
+	geo:lat	"42.65000152587890625"^^xsd:float ;
+	geo:long	"27.733333587646484375"^^xsd:float ;
+	dct:subject	dbc:Nesebar .
+dbr:New_Lanark	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"New Lanark"@fr ;
+	dbo:abstract	"New Lanark est un village situ\u00E9 au bord de la Clyde, \u00E0 environ deux kilom\u00E8tres du Royal Burgh de Lanark, dans le South Lanarkshire en \u00C9cosse. Il fut fond\u00E9 en 1785 par David Dale (1739-1806), qui y fit construire des usines de coton et des r\u00E9sidences pour les ouvriers. Dale choisit cet endroit pour profiter de l'\u00E9nergie hydraulique offerte par la rivi\u00E8re. Sous la direction de Dale puis de son gendre philanthrope et socialiste r\u00E9formiste, Robert Owen (1771-1858), les usines prosp\u00E9r\u00E8rent et New Lanark devint un exemple de socialisme utopique. Les usines de New Lanark continu\u00E8rent de fonctionner jusqu'en 1968. Apr\u00E8s une p\u00E9riode de d\u00E9clin, le New Lanark Conservation Trust fut fond\u00E9 en 1975 afin d'emp\u00EAcher la d\u00E9molition du village. Aujourd'hui, la plupart des b\u00E2timents ont \u00E9t\u00E9 restaur\u00E9s et le village est devenu une attraction touristique importante. C'est \u00E9galement l'un des quatre sites d'\u00C9cosse reconnus comme patrimoine mondial par l'UNESCO."@fr ;
+	geo:lat	"55.659999847412109375"^^xsd:float ;
+	geo:long	"-3.7799999713897705078"^^xsd:float ;
+	dct:subject	dbc:World_Heritage_Sites_in_Scotland .
+dbr:Roman_Catholic_Diocese_of_Kotor	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Dioc\u00E8se de Kotor"@fr ;
+	dbo:abstract	"Le dioc\u00E8se de Kotor (en latin : dioecesis Catharensis ; en mont\u00E9n\u00E9grin : Kotorska biskupija) est une \u00E9glise particuli\u00E8re de l'\u00C9glise catholique au Mont\u00E9n\u00E9gro."@fr ;
+	geo:lat	"42.43000030517578125"^^xsd:float ;
+	geo:long	"18.770000457763671875"^^xsd:float ;
+	dct:subject	dbc:Kotor .
+dbr:Amalfi	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Amalfi (Italie)"@fr ;
+	dbo:abstract	"Amalfi est une commune dans la province de Salerne dans la r\u00E9gion Campanie en Italie. La C\u00F4te amalfitaine a \u00E9t\u00E9 inscrite en 1997 sur la liste du patrimoine mondial de l\u2019UNESCO."@fr ;
+	geo:lat	"40.633335113525390625"^^xsd:float ;
+	geo:long	"14.600000381469726562"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Aquileia	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Aquil\u00E9e"@fr ;
+	dbo:abstract	"Aquil\u00E9e, en italien Aquileia, est une commune de la province d'Udine dans la r\u00E9gion du Frioul-V\u00E9n\u00E9tie julienne en Italie. Historiquement, la ville, fond\u00E9e en 181 av. J.-C. fut, \u00E0 son apog\u00E9e, une des villes les plus importantes de l'Empire romain. Aquil\u00E9e a \u00E9galement \u00E9t\u00E9 un grand foyer du christianisme, puisqu'elle a \u00E9t\u00E9 entre le IVe si\u00E8cle et le XVe si\u00E8cle, le si\u00E8ge du patriarcat d'Aquil\u00E9e."@fr ;
+	geo:lat	"45.769725799560546875"^^xsd:float ;
+	geo:long	"13.371191978454589844"^^xsd:float ;
+	dct:subject	dbc:Aquileia .
+<http://dbpedia.org/resource/Bath,_Somerset>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Bath"@fr ;
+	dbo:abstract	"Bath est une ville du comt\u00E9 de Somerset, au sud-ouest de l'Angleterre. Elle se situe \u00E0 180 km \u00E0 l'ouest de Londres et \u00E0 25 km au sud-est de Bristol, et compte 83 992 habitants. La reine Elizabeth I lui a accord\u00E9 le statut de cit\u00E9 par charte royale en 1590 et la ville fut faite county borough en 1889, ce qui lui donna l'ind\u00E9pendance administrative par rapport au comt\u00E9 du Somerset. Elle est rattach\u00E9e au comt\u00E9 d'Avon, un district non-m\u00E9tropolitain, lorsqu'il est cr\u00E9\u00E9 en 1974. Depuis 1996, l'ann\u00E9e o\u00F9 le comt\u00E9 d'Avon a \u00E9t\u00E9 supprim\u00E9, Bath est le centre principal de l'autorit\u00E9 unitaire de Bath et du nord-est du Somerset (B&NES). En 50 av. J.-C., les Romains fond\u00E8rent la ville pour en faire un lieu thermal et s'appelait en latin Aquae Sulis (en) (\u00AB les eaux de Sulis \u00BB). Cependant, la tradition orale semble sugg\u00E9rer que Bath \u00E9tait connue avant cette date. Ils construisirent des bains et un temple dans les collines aux alentours de la ville, dans la vall\u00E9e de l'Avon autour de sources chaudes. Edgar d'Angleterre fut proclam\u00E9 roi \u00E0 l'abbaye de Bath en 973. Bien plus tard, la ville devint populaire en tant que station thermale pendant l'\u00E9poque georgienne, qui conduit \u00E0 une importante expansion laissant un incroyable h\u00E9ritage architectural fabriqu\u00E9 avec la pierre de la r\u00E9gion. La ville de Bath est inscrite au patrimoine mondial de l'UNESCO depuis 1987. Elle compte une diversit\u00E9 de th\u00E9\u00E2tres, mus\u00E9es et autres lieux culturels et sportifs, ce qui a aid\u00E9 \u00E0 faire de la ville un haut lieu du tourisme, avec, par an, plus d'un million de visiteurs qui font de longs s\u00E9jours, et plus de 3,8 millions qui ne restent que pour la journ\u00E9e. On trouve \u00E0 Bath deux universit\u00E9s et plusieurs \u00E9coles et \u00E9tablissements secondaires. On y trouve aussi un important service tertiaire; les industries de l'informatique et de la cr\u00E9ation se d\u00E9veloppent et fournissent du travail aux habitants de Bath et sa r\u00E9gion."@fr ;
+	geo:lat	"51.380001068115234375"^^xsd:float ;
+	geo:long	"-2.3599998950958251953"^^xsd:float ;
+	dct:subject	dbc:World_Heritage_Sites_in_England .
+<http://dbpedia.org/resource/Castiglione_d\u0027Orcia>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Castiglione d'Orcia"@fr ;
+	dbo:abstract	"Castiglione d'Orcia est une commune de la province de Sienne en Toscane (Italie)."@fr ;
+	geo:lat	"43.016666412353515625"^^xsd:float ;
+	geo:long	"11.616666793823242188"^^xsd:float ;
+	dct:subject	<http://dbpedia.org/resource/Category:Val_d\u0027Orcia> .
+<http://dbpedia.org/resource/Cetara,_Campania>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Cetara"@fr ;
+	dbo:abstract	"Cetara est une commune italienne de la province de Salerne dans la r\u00E9gion Campanie en Italie."@fr ;
+	geo:lat	"40.65000152587890625"^^xsd:float ;
+	geo:long	"14.699999809265136719"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Conca_dei_Marini	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Conca dei Marini"@fr ;
+	dbo:abstract	"Conca dei Marini est une commune italienne de la province de Salerne dans la r\u00E9gion Campanie en Italie."@fr ;
+	geo:lat	"40.616664886474609375"^^xsd:float ;
+	geo:long	"14.566666603088378906"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Dubrovnik	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Dubrovnik"@fr ;
+	dbo:abstract	"Dubrovnik, ou Raguse de son ancien nom fran\u00E7ais (tir\u00E9 de l'italien Ragusa), est une ville et une municipalit\u00E9 de Croatie, capitale du Comitat de Dubrovnik-Neretva. Elle fut autrefois la capitale d'une r\u00E9publique maritime connue sous le nom de R\u00E9publique de Raguse. Ses habitants, ainsi que ce qui s'y rapporte, s'appellent encore des ragusains. Au recensement de 2001, la municipalit\u00E9 comptait 43 770 habitants, dont 88,39 % de Croates, 3,26 % de Serbes, et 3,17 % de Bosniaques et la ville seule comptait 30 436 habitants. Elle a pour devise : \u00AB La libert\u00E9 ne se vend pas m\u00EAme pour tout l'or du monde \u00BB."@fr ;
+	geo:lat	"42.640277862548828125"^^xsd:float ;
+	geo:long	"18.108333587646484375"^^xsd:float ;
+	dct:subject	dbc:Dubrovnik .
+dbr:Florence	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Florence"@fr ;
+	dbo:abstract	"Florence (en italien : Firenze, prononc\u00E9 /fi'r\u025Bn\u02A6e/) est la huiti\u00E8me ville d'Italie par sa population, capitale de la r\u00E9gion de Toscane et chef-lieu de la province du m\u00EAme nom. Berceau de la Renaissance en Italie, capitale du Royaume d'Italie entre 1865 et 1870, inscrit sur la liste du patrimoine mondial de l'Unesco, Florence pr\u00E9sente une richesse artistique exceptionnelle (\u00E9glises, mus\u00E9es, palais), et est devenue un grand centre touristique."@fr ;
+	geo:lat	"43.78333282470703125"^^xsd:float ;
+	geo:long	"11.25"^^xsd:float ;
+	dct:subject	dbc:Florence .
+dbr:Furore	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Furore"@fr ;
+	dbo:abstract	"Furore est une commune italienne de la province de Salerne dans la r\u00E9gion Campanie en Italie."@fr ;
+	geo:lat	"40.621387481689453125"^^xsd:float ;
+	geo:long	"14.549444198608398438"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Genoa	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"G\u00EAnes"@fr ;
+	dbo:abstract	"G\u00EAnes (Genova en italien, Zena en ligurien) est une ville italienne, capitale de la Ligurie, premier port italien et deuxi\u00E8me port de la mer M\u00E9diterran\u00E9e. Elle compte 594 904 habitants et 800 000 au sein de son agglom\u00E9ration. Sa zone urbaine compte 1 510 000 habitants. G\u00EAnes, avec Milan et Turin, d\u00E9limitait le \u00AB triangle industriel \u00BB, zone la plus industrialis\u00E9e d'Italie. En outre \u00E0 G\u00EAnes se trouve la quatri\u00E8me meilleure universit\u00E9 du pays. La ville est un centre important pour les sciences, la technologie, la mode et le sport, consid\u00E9r\u00E9e comme le berceau du football italien. Une partie importante du centre historique est sous la protection de l'UNESCO. G\u00EAnes est une des principales villes sur la c\u00F4te m\u00E9diterran\u00E9enne de la mer de Ligurie."@fr ;
+	geo:lat	"44.41110992431640625"^^xsd:float ;
+	geo:long	"8.93277740478515625"^^xsd:float ;
+	dct:subject	dbc:Genoa .
+dbr:Kotor	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Kotor"@fr ;
+	dbo:abstract	"Kotor (en serbe cyrillique \u041A\u043E\u0442\u043E\u0440 et en italien Cattaro) est une ville et une municipalit\u00E9 du Mont\u00E9n\u00E9gro. En 2003, la ville comptait 1 331 habitants et la municipalit\u00E9 23 481. La vieille ville de Kotor, entour\u00E9e d\u2019une impressionnante muraille de d\u00E9fense, est particuli\u00E8rement bien pr\u00E9serv\u00E9e et class\u00E9e sur la liste du patrimoine mondial de l'UNESCO. Entre 1420 et 1797, Kotor et ses environs d\u00E9pendaient de Venise. Cette influence v\u00E9nitienne se remarque particuli\u00E8rement dans la structure et l\u2019architecture de la ville. C\u2019est \u00E0 la suite du tremblement de terre intervenu le que l\u2019UNESCO se d\u00E9cida \u00E0 faire entrer la ville et le site au sein de la liste des monuments et sites class\u00E9s. Depuis quelques ann\u00E9es, Kotor a vu cro\u00EEtre sensiblement le nombre de touristes (Dubrovnik ne se trouve qu\u2019\u00E0 une centaine de kilom\u00E8tres), attir\u00E9s \u00E0 la fois par les bouches de Kotor et par la vieille ville elle-m\u00EAme."@fr ;
+	geo:lat	"42.43000030517578125"^^xsd:float ;
+	geo:long	"18.770000457763671875"^^xsd:float ;
+	dct:subject	dbc:Kotor .
+dbr:Lipari	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Lipari"@fr ;
+	dbo:abstract	"Lipari est une commune de la province de Messine en Sicile en Italie. La comp\u00E9tence administrative de Lipari s'\u00E9tend sur les sept \u00EEles \u00C9oliennes : Lipari, Vulcano, Panarea, Stromboli, Filicudi, Alicudi. Seule l'\u00EEle de Salina est administrativement ind\u00E9pendante."@fr ;
+	geo:lat	"38.46666717529296875"^^xsd:float ;
+	geo:long	"14.949999809265136719"^^xsd:float ;
+	dct:subject	dbc:Aeolian_Islands .
+dbr:Maiori	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Maiori"@fr ;
+	dbo:abstract	"Maiori est une commune italienne de la province de Salerne, dans la r\u00E9gion Campanie, en Italie."@fr ;
+	geo:lat	"40.65000152587890625"^^xsd:float ;
+	geo:long	"14.649999618530273438"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Montalcino	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Montalcino"@fr ;
+	dbo:abstract	"Montalcino est une commune italienne d'environ 5 200 habitants, situ\u00E9e dans la province de Sienne, dans la r\u00E9gion Toscane, en Italie centrale."@fr ;
+	geo:lat	"43.049999237060546875"^^xsd:float ;
+	geo:long	"11.483333587646484375"^^xsd:float ;
+	dct:subject	<http://dbpedia.org/resource/Category:Val_d\u0027Orcia> .
+dbr:Pienza	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Pienza"@fr ;
+	dbo:abstract	"Pienza est une commune italienne du Val d'Orcia, en province de Sienne (Toscane). Le centre historique de Pienza est inscrit sur liste du patrimoine mondial de l'humanit\u00E9 \u00E9tablie par l'UNESCO."@fr ;
+	geo:lat	"43.078609466552734375"^^xsd:float ;
+	geo:long	"11.678889274597167969"^^xsd:float ;
+	dct:subject	<http://dbpedia.org/resource/Category:Val_d\u0027Orcia> .
+dbr:Positano	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Positano"@fr ;
+	dbo:abstract	"Positano est une commune de la province de Salerne dans la Campanie en Italie. C'est une station baln\u00E9aire connue de la c\u00F4te amalfitaine. Selon une l\u00E9gende, c'est Neptune, le dieu de la mer, qui aurait fond\u00E9 Positano, par amour pour une nymphe [r\u00E9f. souhait\u00E9e]."@fr ;
+	geo:lat	"40.633335113525390625"^^xsd:float ;
+	geo:long	"14.483333587646484375"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Praiano	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Praiano"@fr ;
+	dbo:abstract	"Praiano est une commune italienne de la province de Salerne dans la r\u00E9gion Campanie sur la c\u00F4te amalfitaine en bordure du golfe de Salerne."@fr ;
+	geo:lat	"40.616664886474609375"^^xsd:float ;
+	geo:long	"14.533333778381347656"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Ravello	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Ravello"@fr ;
+	dbo:abstract	"Ravello est une commune italienne situ\u00E9e dans la province de Salerne dans la r\u00E9gion Campanie en Italie m\u00E9ridionale."@fr ;
+	geo:lat	"40.65000152587890625"^^xsd:float ;
+	geo:long	"14.616666793823242188"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Ravenna	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Ravenne"@fr ;
+	dbo:abstract	"Ravenne est une ville italienne de la province de Ravenne en \u00C9milie-Romagne. Elle est consid\u00E9r\u00E9e[Par qui ?] comme la capitale mondiale de la mosa\u00EFque."@fr ;
+	geo:lat	"44.416667938232421875"^^xsd:float ;
+	geo:long	"12.199999809265136719"^^xsd:float ;
+	dct:subject	dbc:Ravenna .
+dbr:San_Gimignano	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"San Gimignano"@fr ;
+	dbo:abstract	"San Gimignano est une commune de la Province de Sienne en Toscane (Italie)."@fr ;
+	geo:lat	"43.467998504638671875"^^xsd:float ;
+	geo:long	"11.04199981689453125"^^xsd:float ;
+	dct:subject	dbc:San_Gimignano .
+<http://dbpedia.org/resource/San_Quirico_d\u0027Orcia>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"San Quirico d'Orcia"@fr ;
+	dbo:abstract	"San Quirico d'Orcia est une commune de la province de Sienne dans la Toscane en Italie."@fr ;
+	geo:lat	"43.0666656494140625"^^xsd:float ;
+	geo:long	"11.600000381469726562"^^xsd:float ;
+	dct:subject	<http://dbpedia.org/resource/Category:Val_d\u0027Orcia> .
+<http://dbpedia.org/resource/Scala,_Campania>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Scala (Italie)"@fr ;
+	dbo:abstract	"Scala est une commune de la province de Salerne dans la r\u00E9gion Campanie en Italie."@fr ;
+	geo:lat	"40.65000152587890625"^^xsd:float ;
+	geo:long	"14.600000381469726562"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+<http://dbpedia.org/resource/Split,_Croatia>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Split"@fr ;
+	dbo:abstract	"Split (grec ancien : \u0391\u03C3\u03C0\u03AC\u03BB\u03B1\u03B8\u03BF\u03C2, Asp\u00E1lathos, latin : Spalatum, italien : Spalato) est la seconde ville la plus peupl\u00E9e de Croatie et le si\u00E8ge du Comitat de Split-Dalmatie. Au recensement de 2011, le comitat comptait 454 798 habitants, la municipalit\u00E9 178 102 habitants, dont 96,23 % de Croates et la ville seule comptait 167 121 habitants. La ville de Split s'est \u00E9tablie \u00E0 l'int\u00E9rieur, puis autour de l'immense palais de l'empereur romain Diocl\u00E9tien, construit entre 294 et 305, qui s'\u00E9tendait sur une surface de 39 000 m2. L'empereur \u00E9tait originaire de la ville de Salone (situ\u00E9e sur les hauteurs de Split). En 1420, Split fut int\u00E9gr\u00E9e dans la R\u00E9publique de Venise, jusqu'\u00E0 sa disparition en 1797. La ville est aujourd'hui inscrite sur la liste du patrimoine mondial par l'UNESCO. C'est un grand port, industriel et touristique de la c\u00F4te dalmate."@fr ;
+	geo:lat	"43.509998321533203125"^^xsd:float ;
+	geo:long	"16.450000762939453125"^^xsd:float ;
+	dct:subject	<http://dbpedia.org/resource/Category:Split,_Croatia> .
+<http://dbpedia.org/resource/Syracuse,_Sicily>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Syracuse"@fr ;
+	dbo:abstract	"Syracuse (Siracusa en Italien, Sarausa en sicilien) est une ville italienne d'environ 123 000 habitants situ\u00E9e sur la c\u00F4te, au sud-est de la Sicile. Syracuse fut fond\u00E9e au VIIIe si\u00E8cleav. J.-C. par des colons grecs venant de Corinthe. Elle est aujourd'hui la principale ville de la province de Syracuse. Cic\u00E9ron la pr\u00E9senta comme la plus grande et la plus belle des villes grecques. Depuis 2005, son centre historique fait partie du patrimoine mondial de l'humanit\u00E9 \u00E9tabli par l'Unesco."@fr ;
+	geo:lat	"37.083332061767578125"^^xsd:float ;
+	geo:long	"15.283333778381347656"^^xsd:float ;
+	dct:subject	<http://dbpedia.org/resource/Category:Syracuse,_Sicily> .
+<http://dbpedia.org/resource/Tramonti,_Campania>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Tramonti"@fr ;
+	dbo:abstract	"Tramonti est une commune italienne de la province de Salerne dans la r\u00E9gion Campanie en Italie."@fr ;
+	geo:lat	"40.700000762939453125"^^xsd:float ;
+	geo:long	"14.633333206176757812"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Atrani	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Atrani"@fr ;
+	dbo:abstract	"Atrani est une commune italienne de la province de Salerne dans la r\u00E9gion Campanie en Italie. L'une des plus c\u00E9l\u00E8bres routes en corniche du monde, perc\u00E9e en 1840, \u00E9pouse les routes du littoral amalfitain pour desservir les hameaux c\u00F4tiers, dont Atrani. Celui-ci fut longtemps la banlieue privil\u00E9gi\u00E9e des nobles d'Amalfi. Aujourd'hui, ce lilliputien (0,2 km2) est entr\u00E9 dans le club ferm\u00E9 des plus beaux villages d'Italie. Il continue de vivre au rythme des mar\u00E9es. Chaque soir, au d\u00E9part des p\u00EAcheurs, la mer se constelle des lumi\u00E8res des lanternes des barques."@fr ;
+	geo:lat	"40.633335113525390625"^^xsd:float ;
+	geo:long	"14.616666793823242188"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+<http://dbpedia.org/resource/Minori,_Campania>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Minori"@fr ;
+	dbo:abstract	"Minori est une commune italienne de la province de Salerne dans la r\u00E9gion Campanie en Italie."@fr ;
+	geo:lat	"40.65000152587890625"^^xsd:float ;
+	geo:long	"14.616666793823242188"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Vietri_sul_Mare	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Vietri sul Mare"@fr ;
+	dbo:abstract	"Vietri sul Mare est une commune italienne de la province de Salerne en Campanie."@fr ;
+	geo:lat	"40.666667938232421875"^^xsd:float ;
+	geo:long	"14.733333587646484375"^^xsd:float ;
+	dct:subject	dbc:Amalfi_Coast .
+dbr:Alicudi	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Alicudi"@fr ;
+	dbo:abstract	"Alicudi est une petite \u00EEle volcanique de la mer Tyrrh\u00E9nienne faisant partie de l'archipel des \u00CEles \u00C9oliennes, au nord de la Sicile. Administrativement, Alicudi est sur le territoire de la commune de Lipari (province de Messine). L'ancien nom d'Alicudi \u00E9tait Ericusa (une vari\u00E9t\u00E9 particuli\u00E8re d'erica pr\u00E9sente sur l'\u00EEle)."@fr ;
+	geo:lat	"38.545833587646484375"^^xsd:float ;
+	geo:long	"14.350000381469726562"^^xsd:float ;
+	dct:subject	dbc:Aeolian_Islands .
+dbr:Roman_Catholic_Archdiocese_of_Florence	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Archidioc\u00E8se de Florence"@fr ;
+	dbo:abstract	"L'archidioc\u00E8se de Florence (latin : Archidioecesis Florentinus) est un archev\u00EAch\u00E9 m\u00E9tropolitain italien. Cr\u00E9e au IIe si\u00E8cle et \u00E9lev\u00E9 au rang d'archidioc\u00E8se le , son archev\u00EAque actuel est Mgr Giuseppe Betori."@fr ;
+	geo:lat	"43.783298492431640625"^^xsd:float ;
+	geo:long	"11.25"^^xsd:float ;
+	dct:subject	dbc:Florence .
+<http://dbpedia.org/resource/Salina,_Sicily>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"\u00CEle de Salina"@fr ;
+	dbo:abstract	"Salina est une \u00EEle italienne de la mer M\u00E9diterran\u00E9e, situ\u00E9e dans l'archipel des \u00EEles \u00C9oliennes, au nord de la Sicile."@fr ;
+	geo:lat	"38.565277099609375"^^xsd:float ;
+	geo:long	"14.833333015441894531"^^xsd:float ;
+	dct:subject	dbc:Aeolian_Islands .
+<http://dbpedia.org/resource/C\u00E2lnic,_Alba>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"C\u00E2lnic"@fr ;
+	dbo:abstract	"C\u00E2lnic (en allemand Kelling, en hongrois Kelnek) est une commune du jude\u021B d'Alba, en Transylvanie, Roumanie. En 1993, le village de C\u00E2lnic et sa forteresse ont \u00E9t\u00E9 inscrits au patrimoine mondial de l'UNESCO."@fr ;
+	geo:lat	"45.886112213134765625"^^xsd:float ;
+	geo:long	"23.653055191040039062"^^xsd:float ;
+	dct:subject	dbc:Villages_with_fortified_churches_in_Transylvania .
+dbr:Diyarbakır	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Diyarbak\u0131r"@fr ;
+	dbo:abstract	"Diyarbak\u0131r (en turc ottoman transcrit Diyarbekir, en kurde Amed, en zazaki Derbekir, en syriaque \u0710\u0721\u071D\u0715 \u0100m\u00EE \u1E0F \"Omid\", en arm\u00E9nien \u054F\u056B\u0563\u0580\u0561\u0576\u0561\u056F\u0565\u0580\u057F Tigranakert) est une ville du sud-est de la Turquie de 855 389 habitants (2008), pr\u00E9fecture de la province du m\u00EAme nom. La population de la ville a doubl\u00E9 en sept ans passant \u00E0 1 600 000. Elle \u00E9tait \u00E9galement appel\u00E9e Amida sous l'Empire romain. Les Kurdes constituant la majeure partie de la population de la ville, la consid\u00E8rent comme la capitale du Kurdistan turc, dans le sud-est anatolien."@fr ;
+	geo:lat	"37.909999847412109375"^^xsd:float ;
+	geo:long	"40.240001678466796875"^^xsd:float ;
+	dct:subject	dbc:Diyarbakır .
+dbr:Prejmer	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Prejmer"@fr ;
+	dbo:abstract	"Prejmer (en allemand Tartlau, Tartlen, Tortalen, en hongrois Pr\u00E1zsm\u00E1r) est une commune du jude\u021B de Bra\u0219ov, en Transylvanie, Roumanie. En 1993, le village de Prejmer et sa forteresse ont \u00E9t\u00E9 inscrits au patrimoine mondial de l'UNESCO."@fr ;
+	geo:lat	"45.71666717529296875"^^xsd:float ;
+	geo:long	"25.766666412353515625"^^xsd:float ;
+	dct:subject	dbc:Villages_with_fortified_churches_in_Transylvania .
+dbr:Roman_Catholic_Archdiocese_of_Split-Makarska	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Archidioc\u00E8se de Split-Makarska"@fr ;
+	dbo:abstract	"L'archidioc\u00E8se de Split-Makarska (en latin : archidioecesis Spalatensis-Macarscensis ; en croate : Splitsko-makarska nadbiskupija) est une \u00E9glise particuli\u00E8re de l'\u00C9glise catholique en Croatie."@fr ;
+	geo:lat	"43.508098602294921875"^^xsd:float ;
+	geo:long	"16.440500259399414062"^^xsd:float ;
+	dct:subject	<http://dbpedia.org/resource/Category:Split,_Croatia> .
+dbr:Biertan	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Biertan"@fr ;
+	dbo:abstract	"Biertan (en allemand Birth\u00E4lm, en hongrois Berethalom) est une commune du jude\u021B de Sibiu, en Transylvanie, Roumanie."@fr ;
+	geo:lat	"46.139720916748046875"^^xsd:float ;
+	geo:long	"24.523611068725585938"^^xsd:float ;
+	dct:subject	dbc:Villages_with_fortified_churches_in_Transylvania .
+<http://dbpedia.org/resource/Lu\u0161tica,_Herceg_Novi>	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Lu\u0161tica"@fr ;
+	dbo:abstract	"Lu\u0161tica (en serbe cyrillique : \u041B\u0443\u0448\u0442\u0438\u0446\u0430) est un village du sud-ouest du Mont\u00E9n\u00E9gro, dans la municipalit\u00E9 de Herceg Novi."@fr ;
+	geo:lat	"42.39666748046875"^^xsd:float ;
+	geo:long	"18.6019439697265625"^^xsd:float ;
+	dct:subject	dbc:Bay_of_Kotor .
+dbr:Strombolicchio	rdf:type	dbo:PopulatedPlace ;
+	rdfs:label	"Strombolicchio"@fr ;
+	dbo:abstract	"L'\u00CEle de Strombolicchio est un \u00EElot faisant partie de l'archipel des \u00CEles \u00C9oliennes, au Nord de la Sicile."@fr ;
+	geo:lat	"38.81722259521484375"^^xsd:float ;
+	geo:long	"15.251667022705078125"^^xsd:float ;
+	dct:subject	dbc:Aeolian_Islands .

@@ -1,0 +1,538 @@
+{
+  "@graph" : [ {
+    "@id" : "dbr:Alicudi",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Alicudi"
+    },
+    "lat" : "38.545833587646484375",
+    "long" : "14.350000381469726562"
+  }, {
+    "@id" : "dbr:Amalfi",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Amalfi (Italie)"
+    },
+    "lat" : "40.633335113525390625",
+    "long" : "14.600000381469726562"
+  }, {
+    "@id" : "dbr:Aquileia",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Aquileia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Aquilée"
+    },
+    "lat" : "45.769725799560546875",
+    "long" : "13.371191978454589844"
+  }, {
+    "@id" : "dbr:Atrani",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Atrani"
+    },
+    "lat" : "40.633335113525390625",
+    "long" : "14.616666793823242188"
+  }, {
+    "@id" : "dbr:Basiluzzo",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Basiluzzo"
+    },
+    "lat" : "38.663333892822265625",
+    "long" : "15.113888740539550781"
+  }, {
+    "@id" : "dbr:Bath,_Somerset",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:World_Heritage_Sites_in_England",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Bath"
+    },
+    "lat" : "51.380001068115234375",
+    "long" : "-2.3599998950958251953"
+  }, {
+    "@id" : "dbr:Biertan",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Biertan"
+    },
+    "lat" : "46.139720916748046875",
+    "long" : "24.523611068725585938"
+  }, {
+    "@id" : "dbr:Blaenavon",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:World_Heritage_Sites_in_Wales",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Blaenavon"
+    },
+    "lat" : "51.77362823486328125",
+    "long" : "-3.0827798843383789062"
+  }, {
+    "@id" : "dbr:Castiglione_d'Orcia",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Val_d'Orcia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Castiglione d'Orcia"
+    },
+    "lat" : "43.016666412353515625",
+    "long" : "11.616666793823242188"
+  }, {
+    "@id" : "dbr:Cetara,_Campania",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Cetara"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.699999809265136719"
+  }, {
+    "@id" : "dbr:Conca_dei_Marini",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Conca dei Marini"
+    },
+    "lat" : "40.616664886474609375",
+    "long" : "14.566666603088378906"
+  }, {
+    "@id" : "dbr:Câlnic,_Alba",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Câlnic"
+    },
+    "lat" : "45.886112213134765625",
+    "long" : "23.653055191040039062"
+  }, {
+    "@id" : "dbr:Delos",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Delos",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Délos"
+    },
+    "lat" : "37.39333343505859375",
+    "long" : "25.27111053466796875"
+  }, {
+    "@id" : "dbr:Diyarbakır",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Diyarbakır",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Diyarbakır"
+    },
+    "lat" : "37.909999847412109375",
+    "long" : "40.240001678466796875"
+  }, {
+    "@id" : "dbr:Dubrovnik",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Dubrovnik",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Dubrovnik"
+    },
+    "lat" : "42.640277862548828125",
+    "long" : "18.108333587646484375"
+  }, {
+    "@id" : "dbr:Dârjiu",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Dârjiu"
+    },
+    "lat" : "46.200000762939453125",
+    "long" : "25.200000762939453125"
+  }, {
+    "@id" : "dbr:Florence",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Florence",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Florence"
+    },
+    "lat" : "43.78333282470703125",
+    "long" : "11.25"
+  }, {
+    "@id" : "dbr:Furore",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Furore"
+    },
+    "lat" : "40.621387481689453125",
+    "long" : "14.549444198608398438"
+  }, {
+    "@id" : "dbr:Genoa",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Genoa",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Gênes"
+    },
+    "lat" : "44.41110992431640625",
+    "long" : "8.93277740478515625"
+  }, {
+    "@id" : "dbr:Kotor",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Kotor",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Kotor"
+    },
+    "lat" : "42.43000030517578125",
+    "long" : "18.770000457763671875"
+  }, {
+    "@id" : "dbr:Lipari",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Lipari"
+    },
+    "lat" : "38.46666717529296875",
+    "long" : "14.949999809265136719"
+  }, {
+    "@id" : "dbr:Luštica,_Herceg_Novi",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Bay_of_Kotor",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Luštica"
+    },
+    "lat" : "42.39666748046875",
+    "long" : "18.6019439697265625"
+  }, {
+    "@id" : "dbr:Maiori",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Maiori"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.649999618530273438"
+  }, {
+    "@id" : "dbr:Minori,_Campania",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Minori"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.616666793823242188"
+  }, {
+    "@id" : "dbr:Montalcino",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Val_d'Orcia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Montalcino"
+    },
+    "lat" : "43.049999237060546875",
+    "long" : "11.483333587646484375"
+  }, {
+    "@id" : "dbr:Nesebar",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Nesebar",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Nessebar (ville)"
+    },
+    "lat" : "42.65000152587890625",
+    "long" : "27.733333587646484375"
+  }, {
+    "@id" : "dbr:New_Lanark",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:World_Heritage_Sites_in_Scotland",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "New Lanark"
+    },
+    "lat" : "55.659999847412109375",
+    "long" : "-3.7799999713897705078"
+  }, {
+    "@id" : "dbr:Panarea",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Panarea"
+    },
+    "lat" : "38.637500762939453125",
+    "long" : "15.066666603088378906"
+  }, {
+    "@id" : "dbr:Pienza",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Val_d'Orcia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Pienza"
+    },
+    "lat" : "43.078609466552734375",
+    "long" : "11.678889274597167969"
+  }, {
+    "@id" : "dbr:Positano",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Positano"
+    },
+    "lat" : "40.633335113525390625",
+    "long" : "14.483333587646484375"
+  }, {
+    "@id" : "dbr:Praiano",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Praiano"
+    },
+    "lat" : "40.616664886474609375",
+    "long" : "14.533333778381347656"
+  }, {
+    "@id" : "dbr:Prejmer",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Prejmer"
+    },
+    "lat" : "45.71666717529296875",
+    "long" : "25.766666412353515625"
+  }, {
+    "@id" : "dbr:Ravello",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Ravello"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.616666793823242188"
+  }, {
+    "@id" : "dbr:Ravenna",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Ravenna",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Ravenne"
+    },
+    "lat" : "44.416667938232421875",
+    "long" : "12.199999809265136719"
+  }, {
+    "@id" : "dbr:Roman_Catholic_Archdiocese_of_Florence",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Florence",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Archidiocèse de Florence"
+    },
+    "lat" : "43.783298492431640625",
+    "long" : "11.25"
+  }, {
+    "@id" : "dbr:Roman_Catholic_Archdiocese_of_Split-Makarska",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Split,_Croatia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Archidiocèse de Split-Makarska"
+    },
+    "lat" : "43.508098602294921875",
+    "long" : "16.440500259399414062"
+  }, {
+    "@id" : "dbr:Roman_Catholic_Diocese_of_Kotor",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Kotor",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Diocèse de Kotor"
+    },
+    "lat" : "42.43000030517578125",
+    "long" : "18.770000457763671875"
+  }, {
+    "@id" : "dbr:Rome",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Rome",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Rome"
+    },
+    "lat" : "41.90000152587890625",
+    "long" : "12.5"
+  }, {
+    "@id" : "dbr:Salina,_Sicily",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Île de Salina"
+    },
+    "lat" : "38.565277099609375",
+    "long" : "14.833333015441894531"
+  }, {
+    "@id" : "dbr:San_Gimignano",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:San_Gimignano",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "San Gimignano"
+    },
+    "lat" : "43.467998504638671875",
+    "long" : "11.04199981689453125"
+  }, {
+    "@id" : "dbr:San_Quirico_d'Orcia",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Val_d'Orcia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "San Quirico d'Orcia"
+    },
+    "lat" : "43.0666656494140625",
+    "long" : "11.600000381469726562"
+  }, {
+    "@id" : "dbr:Saschiz",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Saschiz"
+    },
+    "lat" : "46.1833343505859375",
+    "long" : "24.96666717529296875"
+  }, {
+    "@id" : "dbr:Scala,_Campania",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Scala (Italie)"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.600000381469726562"
+  }, {
+    "@id" : "dbr:Split,_Croatia",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Split,_Croatia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Split"
+    },
+    "lat" : "43.509998321533203125",
+    "long" : "16.450000762939453125"
+  }, {
+    "@id" : "dbr:Strombolicchio",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Strombolicchio"
+    },
+    "lat" : "38.81722259521484375",
+    "long" : "15.251667022705078125"
+  }, {
+    "@id" : "dbr:Syracuse,_Sicily",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Syracuse,_Sicily",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Syracuse"
+    },
+    "lat" : "37.083332061767578125",
+    "long" : "15.283333778381347656"
+  }, {
+    "@id" : "dbr:Tramonti,_Campania",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Tramonti"
+    },
+    "lat" : "40.700000762939453125",
+    "long" : "14.633333206176757812"
+  }, {
+    "@id" : "dbr:Valea_Viilor",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Valea Viilor"
+    },
+    "lat" : "46.083099365234375",
+    "long" : "24.276899337768554688"
+  }, {
+    "@id" : "dbr:Valletta",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Valletta",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "La Valette"
+    },
+    "lat" : "35.897777557373046875",
+    "long" : "14.512499809265136719"
+  }, {
+    "@id" : "dbr:Vietri_sul_Mare",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Vietri sul Mare"
+    },
+    "lat" : "40.666667938232421875",
+    "long" : "14.733333587646484375"
+  }, {
+    "@id" : "dbr:Český_Krumlov",
+    "@type" : "dbo:PopulatedPlace",
+    "subject" : "dbc:Český_Krumlov",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Český Krumlov"
+    },
+    "lat" : "48.8166656494140625",
+    "long" : "14.316666603088378906"
+  } ],
+  "@context" : {
+    "subject" : {
+      "@id" : "http://purl.org/dc/terms/subject",
+      "@type" : "@id"
+    },
+    "long" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "lat" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "geo" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "dbo" : "http://dbpedia.org/ontology/",
+    "dct" : "http://purl.org/dc/terms/",
+    "dbc" : "http://dbpedia.org/resource/Category:",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dbr" : "http://dbpedia.org/resource/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

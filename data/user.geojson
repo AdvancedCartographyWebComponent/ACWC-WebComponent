@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"features": [
+  { "type": "Feature",
+    "properties": {
+      "NAME": "user1",
+      "URL": "http:\/\/www.xxx.xxx\/xxx\/xxx\/"},
+    "geometry": {
+      "type": "Point",
+      "coordinates": [  2.334345,48.836703 ] }
+  },
+  { "type": "Feature",
+    "properties": {
+      "NAME": "user2",
+      "URL": "http:\/\/www.xxx.xxx\/xxx\/xxx\/"},
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 2.354345,48.816703 ] }
+  }]
+}

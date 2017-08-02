@@ -1,0 +1,747 @@
+{
+  "@graph" : [ {
+    "@id" : "dbr:Alicudi",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Alicudi est une petite île volcanique de la mer Tyrrhénienne faisant partie de l'archipel des Îles Éoliennes, au nord de la Sicile. Administrativement, Alicudi est sur le territoire de la commune de Lipari (province de Messine). L'ancien nom d'Alicudi était Ericusa (une variété particulière d'erica présente sur l'île)."
+    },
+    "markerAndIcons":["plane","battery-1","battery-1"],
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Alicudi"
+    },
+    "lat" : "38.545833587646484375",
+    "long" : "14.350000381469726562"
+  }, {
+    "@id" : "dbr:Amalfi",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Amalfi est une commune dans la province de Salerne dans la région Campanie en Italie. La Côte amalfitaine a été inscrite en 1997 sur la liste du patrimoine mondial de l’UNESCO."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Amalfi (Italie)"
+    },
+    "lat" : "40.633335113525390625",
+    "long" : "14.600000381469726562"
+  }, {
+    "@id" : "dbr:Aquileia",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Aquilée, en italien Aquileia, est une commune de la province d'Udine dans la région du Frioul-Vénétie julienne en Italie. Historiquement, la ville, fondée en 181 av. J.-C. fut, à son apogée, une des villes les plus importantes de l'Empire romain. Aquilée a également été un grand foyer du christianisme, puisqu'elle a été entre le IVe siècle et le XVe siècle, le siège du patriarcat d'Aquilée."
+    },
+    "subject" : "dbc:Aquileia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Aquilée"
+    },
+    "lat" : "45.769725799560546875",
+    "long" : "13.371191978454589844"
+  }, {
+    "@id" : "dbr:Atrani",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Atrani est une commune italienne de la province de Salerne dans la région Campanie en Italie. L'une des plus célèbres routes en corniche du monde, percée en 1840, épouse les routes du littoral amalfitain pour desservir les hameaux côtiers, dont Atrani. Celui-ci fut longtemps la banlieue privilégiée des nobles d'Amalfi. Aujourd'hui, ce lilliputien (0,2 km2) est entré dans le club fermé des plus beaux villages d'Italie. Il continue de vivre au rythme des marées. Chaque soir, au départ des pêcheurs, la mer se constelle des lumières des lanternes des barques."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Atrani"
+    },
+    "lat" : "40.633335113525390625",
+    "long" : "14.616666793823242188"
+  }, {
+    "@id" : "dbr:Basiluzzo",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Basiluzzo est une petite île d'origine volcanique d'environ 0,3 km2 faisant partie de l'archipel des îles Éoliennes au nord de la Sicile."
+    },
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Basiluzzo"
+    },
+    "lat" : "38.663333892822265625",
+    "long" : "15.113888740539550781"
+  }, {
+    "@id" : "dbr:Bath,_Somerset",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Bath est une ville du comté de Somerset, au sud-ouest de l'Angleterre. Elle se situe à 180 km à l'ouest de Londres et à 25 km au sud-est de Bristol, et compte 83 992 habitants. La reine Elizabeth I lui a accordé le statut de cité par charte royale en 1590 et la ville fut faite county borough en 1889, ce qui lui donna l'indépendance administrative par rapport au comté du Somerset. Elle est rattachée au comté d'Avon, un district non-métropolitain, lorsqu'il est créé en 1974. Depuis 1996, l'année où le comté d'Avon a été supprimé, Bath est le centre principal de l'autorité unitaire de Bath et du nord-est du Somerset (B&NES). En 50 av. J.-C., les Romains fondèrent la ville pour en faire un lieu thermal et s'appelait en latin Aquae Sulis (en) (« les eaux de Sulis »). Cependant, la tradition orale semble suggérer que Bath était connue avant cette date. Ils construisirent des bains et un temple dans les collines aux alentours de la ville, dans la vallée de l'Avon autour de sources chaudes. Edgar d'Angleterre fut proclamé roi à l'abbaye de Bath en 973. Bien plus tard, la ville devint populaire en tant que station thermale pendant l'époque georgienne, qui conduit à une importante expansion laissant un incroyable héritage architectural fabriqué avec la pierre de la région. La ville de Bath est inscrite au patrimoine mondial de l'UNESCO depuis 1987. Elle compte une diversité de théâtres, musées et autres lieux culturels et sportifs, ce qui a aidé à faire de la ville un haut lieu du tourisme, avec, par an, plus d'un million de visiteurs qui font de longs séjours, et plus de 3,8 millions qui ne restent que pour la journée. On trouve à Bath deux universités et plusieurs écoles et établissements secondaires. On y trouve aussi un important service tertiaire; les industries de l'informatique et de la création se développent et fournissent du travail aux habitants de Bath et sa région."
+    },
+    "subject" : "dbc:World_Heritage_Sites_in_England",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Bath"
+    },
+    "lat" : "51.380001068115234375",
+    "long" : "-2.3599998950958251953"
+  }, {
+    "@id" : "dbr:Biertan",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Biertan (en allemand Birthälm, en hongrois Berethalom) est une commune du județ de Sibiu, en Transylvanie, Roumanie."
+    },
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Biertan"
+    },
+    "lat" : "46.139720916748046875",
+    "long" : "24.523611068725585938"
+  }, {
+    "@id" : "dbr:Blaenavon",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Blaenavon (en gallois : Blaenafon) une ville du county borough de Torfaen, au sud-est du pays de Galles, à la source de l'Afon Llwyd, au nord de Pontypool. Ses habitants sont au nombre de 6 349. Elle est sur la liste du patrimoine mondial de l'UNESCO depuis 2000 pour son paysage industriel. Blaenavon voit le jour en 1789 lors de la fondation de l'usine sidérurgique Blaenavon Ironworks (dont une partie est aujourd'hui un musée). S'ensuivent des usines d'acier et des mines de charbon, qui font monter la population de la ville jusqu'à 20 000 âmes. Depuis la fermeture de l'usine sidérurgique en 1900 et de la mine de charbon en 1980, la population a diminué et consiste aujourd'hui pour la plupart de personnes âgées. Depuis quelques années on essaie d'en faire une seconde book town du pays de Galles (la première étant Hay-on-Wye), mais le projet semble avoir échoué, en partie à cause de son isolement et sa difficulté d'accès. On y trouve le musée Big Pit, situé à l'ancienne mine de charbon."
+    },
+    "subject" : "dbc:World_Heritage_Sites_in_Wales",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Blaenavon"
+    },
+    "lat" : "51.77362823486328125",
+    "long" : "-3.0827798843383789062"
+  }, {
+    "@id" : "dbr:Castiglione_d'Orcia",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Castiglione d'Orcia est une commune de la province de Sienne en Toscane (Italie)."
+    },
+    "subject" : "dbc:Val_d'Orcia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Castiglione d'Orcia"
+    },
+    "lat" : "43.016666412353515625",
+    "long" : "11.616666793823242188"
+  }, {
+    "@id" : "dbr:Cetara,_Campania",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Cetara est une commune italienne de la province de Salerne dans la région Campanie en Italie."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Cetara"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.699999809265136719"
+  }, {
+    "@id" : "dbr:Conca_dei_Marini",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Conca dei Marini est une commune italienne de la province de Salerne dans la région Campanie en Italie."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Conca dei Marini"
+    },
+    "lat" : "40.616664886474609375",
+    "long" : "14.566666603088378906"
+  }, {
+    "@id" : "dbr:Câlnic,_Alba",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Câlnic (en allemand Kelling, en hongrois Kelnek) est une commune du județ d'Alba, en Transylvanie, Roumanie. En 1993, le village de Câlnic et sa forteresse ont été inscrits au patrimoine mondial de l'UNESCO."
+    },
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Câlnic"
+    },
+    "lat" : "45.886112213134765625",
+    "long" : "23.653055191040039062"
+  }, {
+    "@id" : "dbr:Delos",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Délos (en grec moderne : Δήλος) est l'une des îles des Cyclades, en Grèce. Minuscule (3,5 km2), aride, inhabitée depuis longtemps, elle se situe en face de l'île de Rhénée (14 km2, inhabitée) et à proximité de Mykonos. Ses pentes sont douces et la colline Cynthe (Kynthos) ne dépasse pas 113 m. Le port a toujours été exposé aux vents qui, dès qu'ils se lèvent, rendent l'île inaccessible. Dans la partie basse se trouvait jadis un lac sacré d'eau douce, aujourd'hui à sec. Elle a joué un rôle considérable en Grèce antique, lorsqu'elle avait de l'eau potable, tant sur le plan commercial que religieux, et son rayonnement a connu son apogée sur le plan religieux au VIe siècleav. J.-C. Le site de Délos a été inscrit au patrimoine mondial de l'Unesco en 1990. Elle a connu plusieurs dénominations dans l'Antiquité : Lagia (l'« île aux lièvres »); Ortygie (l'« île aux cailles ») ; Prypile (« porte de feu ») ; Cynthère (l'« île de Cynthia », nom carien d'Artémis) ou encore Pélasgie (l'« île des Pélasges »). Son nom de Délos (« claire », « visible ») s'explique par la mythologie."
+    },
+    "subject" : "dbc:Delos",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Délos"
+    },
+    "lat" : "37.39333343505859375",
+    "long" : "25.27111053466796875"
+  }, {
+    "@id" : "dbr:Diyarbakır",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Diyarbakır (en turc ottoman transcrit Diyarbekir, en kurde Amed, en zazaki Derbekir, en syriaque ܐܡܝܕ Āmî ḏ \"Omid\", en arménien Տիգրանակերտ Tigranakert) est une ville du sud-est de la Turquie de 855 389 habitants (2008), préfecture de la province du même nom. La population de la ville a doublé en sept ans passant à 1 600 000. Elle était également appelée Amida sous l'Empire romain. Les Kurdes constituant la majeure partie de la population de la ville, la considèrent comme la capitale du Kurdistan turc, dans le sud-est anatolien."
+    },
+    "subject" : "dbc:Diyarbakır",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Diyarbakır"
+    },
+    "lat" : "37.909999847412109375",
+    "long" : "40.240001678466796875"
+  }, {
+    "@id" : "dbr:Dubrovnik",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Dubrovnik, ou Raguse de son ancien nom français (tiré de l'italien Ragusa), est une ville et une municipalité de Croatie, capitale du Comitat de Dubrovnik-Neretva. Elle fut autrefois la capitale d'une république maritime connue sous le nom de République de Raguse. Ses habitants, ainsi que ce qui s'y rapporte, s'appellent encore des ragusains. Au recensement de 2001, la municipalité comptait 43 770 habitants, dont 88,39 % de Croates, 3,26 % de Serbes, et 3,17 % de Bosniaques et la ville seule comptait 30 436 habitants. Elle a pour devise : « La liberté ne se vend pas même pour tout l'or du monde »."
+    },
+    "subject" : "dbc:Dubrovnik",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Dubrovnik"
+    },
+    "lat" : "42.640277862548828125",
+    "long" : "18.108333587646484375"
+  }, {
+    "@id" : "dbr:Dârjiu",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Dârjiu (en roumain) ou Székelyderzs (en hongrois) est une commune du județ de Harghita, en Transylvanie, Roumanie."
+    },
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Dârjiu"
+    },
+    "lat" : "46.200000762939453125",
+    "long" : "25.200000762939453125"
+  }, {
+    "@id" : "dbr:Florence",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Florence (en italien : Firenze, prononcé /fi'rɛnʦe/) est la huitième ville d'Italie par sa population, capitale de la région de Toscane et chef-lieu de la province du même nom. Berceau de la Renaissance en Italie, capitale du Royaume d'Italie entre 1865 et 1870, inscrit sur la liste du patrimoine mondial de l'Unesco, Florence présente une richesse artistique exceptionnelle (églises, musées, palais), et est devenue un grand centre touristique."
+    },
+    "subject" : "dbc:Florence",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Florence"
+    },
+    "lat" : "43.78333282470703125",
+    "long" : "11.25"
+  }, {
+    "@id" : "dbr:Furore",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Furore est une commune italienne de la province de Salerne dans la région Campanie en Italie."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Furore"
+    },
+    "lat" : "40.621387481689453125",
+    "long" : "14.549444198608398438"
+  }, {
+    "@id" : "dbr:Genoa",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Gênes (Genova en italien, Zena en ligurien) est une ville italienne, capitale de la Ligurie, premier port italien et deuxième port de la mer Méditerranée. Elle compte 594 904 habitants et 800 000 au sein de son agglomération. Sa zone urbaine compte 1 510 000 habitants. Gênes, avec Milan et Turin, délimitait le « triangle industriel », zone la plus industrialisée d'Italie. En outre à Gênes se trouve la quatrième meilleure université du pays. La ville est un centre important pour les sciences, la technologie, la mode et le sport, considérée comme le berceau du football italien. Une partie importante du centre historique est sous la protection de l'UNESCO. Gênes est une des principales villes sur la côte méditerranéenne de la mer de Ligurie."
+    },
+    "subject" : "dbc:Genoa",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Gênes"
+    },
+    "lat" : "44.41110992431640625",
+    "long" : "8.93277740478515625"
+  }, {
+    "@id" : "dbr:Kotor",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Kotor (en serbe cyrillique Котор et en italien Cattaro) est une ville et une municipalité du Monténégro. En 2003, la ville comptait 1 331 habitants et la municipalité 23 481. La vieille ville de Kotor, entourée d’une impressionnante muraille de défense, est particulièrement bien préservée et classée sur la liste du patrimoine mondial de l'UNESCO. Entre 1420 et 1797, Kotor et ses environs dépendaient de Venise. Cette influence vénitienne se remarque particulièrement dans la structure et l’architecture de la ville. C’est à la suite du tremblement de terre intervenu le que l’UNESCO se décida à faire entrer la ville et le site au sein de la liste des monuments et sites classés. Depuis quelques années, Kotor a vu croître sensiblement le nombre de touristes (Dubrovnik ne se trouve qu’à une centaine de kilomètres), attirés à la fois par les bouches de Kotor et par la vieille ville elle-même."
+    },
+    "subject" : "dbc:Kotor",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Kotor"
+    },
+    "lat" : "42.43000030517578125",
+    "long" : "18.770000457763671875"
+  }, {
+    "@id" : "dbr:Lipari",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Lipari est une commune de la province de Messine en Sicile en Italie. La compétence administrative de Lipari s'étend sur les sept îles Éoliennes : Lipari, Vulcano, Panarea, Stromboli, Filicudi, Alicudi. Seule l'île de Salina est administrativement indépendante."
+    },
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Lipari"
+    },
+    "lat" : "38.46666717529296875",
+    "long" : "14.949999809265136719"
+  }, {
+    "@id" : "dbr:Luštica,_Herceg_Novi",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Luštica (en serbe cyrillique : Луштица) est un village du sud-ouest du Monténégro, dans la municipalité de Herceg Novi."
+    },
+    "subject" : "dbc:Bay_of_Kotor",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Luštica"
+    },
+    "lat" : "42.39666748046875",
+    "long" : "18.6019439697265625"
+  }, {
+    "@id" : "dbr:Maiori",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Maiori est une commune italienne de la province de Salerne, dans la région Campanie, en Italie."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Maiori"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.649999618530273438"
+  }, {
+    "@id" : "dbr:Minori,_Campania",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Minori est une commune italienne de la province de Salerne dans la région Campanie en Italie."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Minori"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.616666793823242188"
+  }, {
+    "@id" : "dbr:Montalcino",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Montalcino est une commune italienne d'environ 5 200 habitants, située dans la province de Sienne, dans la région Toscane, en Italie centrale."
+    },
+    "subject" : "dbc:Val_d'Orcia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Montalcino"
+    },
+    "lat" : "43.049999237060546875",
+    "long" : "11.483333587646484375"
+  }, {
+    "@id" : "dbr:Nesebar",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Nessebar (en bulgare Несебър, translittération internationale Nesebǎr, « Méssembrie » en français classique, d'après son nom grec Μεσημβρία / Messembria qui signifie « cité de Melsas », est une cité historique de la Bulgarie, de population grecque de l'Antiquité à 1923, juchée sur une presqu'île rocheuse s'avançant en mer Noire."
+    },
+    "subject" : "dbc:Nesebar",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Nessebar (ville)"
+    },
+    "lat" : "42.65000152587890625",
+    "long" : "27.733333587646484375"
+  }, {
+    "@id" : "dbr:New_Lanark",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "New Lanark est un village situé au bord de la Clyde, à environ deux kilomètres du Royal Burgh de Lanark, dans le South Lanarkshire en Écosse. Il fut fondé en 1785 par David Dale (1739-1806), qui y fit construire des usines de coton et des résidences pour les ouvriers. Dale choisit cet endroit pour profiter de l'énergie hydraulique offerte par la rivière. Sous la direction de Dale puis de son gendre philanthrope et socialiste réformiste, Robert Owen (1771-1858), les usines prospérèrent et New Lanark devint un exemple de socialisme utopique. Les usines de New Lanark continuèrent de fonctionner jusqu'en 1968. Après une période de déclin, le New Lanark Conservation Trust fut fondé en 1975 afin d'empêcher la démolition du village. Aujourd'hui, la plupart des bâtiments ont été restaurés et le village est devenu une attraction touristique importante. C'est également l'un des quatre sites d'Écosse reconnus comme patrimoine mondial par l'UNESCO."
+    },
+    "subject" : "dbc:World_Heritage_Sites_in_Scotland",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "New Lanark"
+    },
+    "lat" : "55.659999847412109375",
+    "long" : "-3.7799999713897705078"
+  }, {
+    "@id" : "dbr:Panarea",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Panarea est une petite île volcanique de la mer Tyrrhénienne. Elle fait partie de l'archipel des îles Éoliennes. La localité de Panarea fait partie de la commune de Lipari, dans la province de Messine."
+    },
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Panarea"
+    },
+    "lat" : "38.637500762939453125",
+    "long" : "15.066666603088378906"
+  }, {
+    "@id" : "dbr:Pienza",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Pienza est une commune italienne du Val d'Orcia, en province de Sienne (Toscane). Le centre historique de Pienza est inscrit sur liste du patrimoine mondial de l'humanité établie par l'UNESCO."
+    },
+    "subject" : "dbc:Val_d'Orcia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Pienza"
+    },
+    "lat" : "43.078609466552734375",
+    "long" : "11.678889274597167969"
+  }, {
+    "@id" : "dbr:Positano",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Positano est une commune de la province de Salerne dans la Campanie en Italie. C'est une station balnéaire connue de la côte amalfitaine. Selon une légende, c'est Neptune, le dieu de la mer, qui aurait fondé Positano, par amour pour une nymphe [réf. souhaitée]."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Positano"
+    },
+    "lat" : "40.633335113525390625",
+    "long" : "14.483333587646484375"
+  }, {
+    "@id" : "dbr:Praiano",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Praiano est une commune italienne de la province de Salerne dans la région Campanie sur la côte amalfitaine en bordure du golfe de Salerne."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Praiano"
+    },
+    "lat" : "40.616664886474609375",
+    "long" : "14.533333778381347656"
+  }, {
+    "@id" : "dbr:Prejmer",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Prejmer (en allemand Tartlau, Tartlen, Tortalen, en hongrois Prázsmár) est une commune du județ de Brașov, en Transylvanie, Roumanie. En 1993, le village de Prejmer et sa forteresse ont été inscrits au patrimoine mondial de l'UNESCO."
+    },
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Prejmer"
+    },
+    "lat" : "45.71666717529296875",
+    "long" : "25.766666412353515625"
+  }, {
+    "@id" : "dbr:Ravello",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Ravello est une commune italienne située dans la province de Salerne dans la région Campanie en Italie méridionale."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Ravello"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.616666793823242188"
+  }, {
+    "@id" : "dbr:Ravenna",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Ravenne est une ville italienne de la province de Ravenne en Émilie-Romagne. Elle est considérée[Par qui ?] comme la capitale mondiale de la mosaïque."
+    },
+    "subject" : "dbc:Ravenna",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Ravenne"
+    },
+    "lat" : "44.416667938232421875",
+    "long" : "12.199999809265136719"
+  }, {
+    "@id" : "dbr:Roman_Catholic_Archdiocese_of_Florence",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "L'archidiocèse de Florence (latin : Archidioecesis Florentinus) est un archevêché métropolitain italien. Crée au IIe siècle et élevé au rang d'archidiocèse le , son archevêque actuel est Mgr Giuseppe Betori."
+    },
+    "subject" : "dbc:Florence",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Archidiocèse de Florence"
+    },
+    "lat" : "43.783298492431640625",
+    "long" : "11.25"
+  }, {
+    "@id" : "dbr:Roman_Catholic_Archdiocese_of_Split-Makarska",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "L'archidiocèse de Split-Makarska (en latin : archidioecesis Spalatensis-Macarscensis ; en croate : Splitsko-makarska nadbiskupija) est une église particulière de l'Église catholique en Croatie."
+    },
+    "subject" : "dbc:Split,_Croatia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Archidiocèse de Split-Makarska"
+    },
+    "lat" : "43.508098602294921875",
+    "long" : "16.440500259399414062"
+  }, {
+    "@id" : "dbr:Roman_Catholic_Diocese_of_Kotor",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Le diocèse de Kotor (en latin : dioecesis Catharensis ; en monténégrin : Kotorska biskupija) est une église particulière de l'Église catholique au Monténégro."
+    },
+    "subject" : "dbc:Kotor",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Diocèse de Kotor"
+    },
+    "lat" : "42.43000030517578125",
+    "long" : "18.770000457763671875"
+  }, {
+    "@id" : "dbr:Rome",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Rome (en italien Roma, prononcé [ˈroˑma]) est la capitale de l'Italie depuis 1871. Située au centre-ouest de la péninsule italienne, sur les côtes de la mer Tyrrhénienne, elle est également la capitale de la province de Rome, de la région du Latium, et fut celle de l'Empire romain durant plusieurs siècles. En 2014, elle compte 2 869 461 habitants établis sur 1 285 km², ce qui fait d'elle la commune la plus peuplée d'Italie et la plus étendue d'Europe après Moscou et Londres. Son aire urbaine, qui recense 4 321 244 habitants en 2013, est en revanche moins importante que celle de Milan et Naples. Elle présente en outre la particularité de contenir un État enclavé dans son territoire : la Cité du Vatican (Città del Vaticano), dont le pape est le souverain. L'histoire de Rome s'étend sur plus de vingt-huit siècles, depuis sa fondation mythique par Romulus en 753av. J.-C. jusqu'à son rôle actuel de capitale de la République italienne. Second berceau de la civilisation occidentale après Athènes, la ville fut successivement le centre de la Monarchie romaine, de la République romaine (509 av. J.-C. – 27 av. J.-C.) puis de l'Empire romain (27av. J.-C. – 476). Durant cette période, Rome aurait compté entre un et deux millions d'habitants et domine l'Europe, l'Afrique du Nord et le Moyen-Orient tant militairement que culturellement, diffusant dans ces territoires la langue latine, ses arts et techniques ainsi que la religion chrétienne. Depuis le Ier siècle, elle abrite le siège de l'Église catholique romaine, au sein des États pontificaux (752-1870) puis de la Cité du Vatican. Considérablement agrandie par de grands travaux sous Jules César et surtout sous Auguste, la ville est partiellement détruite lors du Grand incendie de Rome - le Circus Maximus notamment. À partir du XVe siècle, presque tous les papes depuis Nicolas V (1447-1455) perpétuent la tradition de l'architecture romaine et ambitionnent de faire de Rome le principal centre culturel et artistique de l'Occident. La ville devient l'un des foyers de la Renaissance italienne, avec Florence et Venise, et donne naissance au style baroque - dont témoigne encore son centre historique, classé par l'UNESCO comme site du patrimoine mondial. Des artistes comme Michel-Ange, Raphaël ou Le Bernin s'y installent et produisent des œuvres telles que la Basilique Saint-Pierre, la Chapelle Sixtine ou les Chambres de Raphaël. Au XIXe siècle, Rome est le symbole de l'unité italienne et devient la capitale du Royaume d'Italie, puis de la République après la Seconde Guerre mondiale. Ville globale, Rome est la troisième destination touristique la plus visitée d'Europe derrière Londres et Paris. Les musées du Vatican et le Colisée sont parmi les sites les plus fréquentés. Rome compte également de nombreux ponts et fontaines, 900 églises, ainsi qu'un grand nombre de musées et d'universités. Outre le tourisme, l'économie de la ville est également orientée vers les nouvelles technologies, les médias et les télécommunications depuis les années 2000. Cernée par sept collines, la ville se situe à l'embouchure du Tibre et est divisée en vingt-deux rioni. Rome a aussi organisé les Jeux olympiques d'été en 1960."
+    },
+    "subject" : "dbc:Rome",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Rome"
+    },
+    "lat" : "41.90000152587890625",
+    "long" : "12.5"
+  }, {
+    "@id" : "dbr:Salina,_Sicily",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Salina est une île italienne de la mer Méditerranée, située dans l'archipel des îles Éoliennes, au nord de la Sicile."
+    },
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Île de Salina"
+    },
+    "lat" : "38.565277099609375",
+    "long" : "14.833333015441894531"
+  }, {
+    "@id" : "dbr:San_Gimignano",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "San Gimignano est une commune de la Province de Sienne en Toscane (Italie)."
+    },
+    "subject" : "dbc:San_Gimignano",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "San Gimignano"
+    },
+    "lat" : "43.467998504638671875",
+    "long" : "11.04199981689453125"
+  }, {
+    "@id" : "dbr:San_Quirico_d'Orcia",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "San Quirico d'Orcia est une commune de la province de Sienne dans la Toscane en Italie."
+    },
+    "subject" : "dbc:Val_d'Orcia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "San Quirico d'Orcia"
+    },
+    "lat" : "43.0666656494140625",
+    "long" : "11.600000381469726562"
+  }, {
+    "@id" : "dbr:Saschiz",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Saschiz (en allemand Keisd, Kaisd, Keißd, Kaißd, Hünenburg, Hujnerschburg, en hongrois Szászkézd vára) est une commune roumaine du județ de Mureș, dans la région historique de Transylvanie et dans la région de développement du Centre."
+    },
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Saschiz"
+    },
+    "lat" : "46.1833343505859375",
+    "long" : "24.96666717529296875"
+  }, {
+    "@id" : "dbr:Scala,_Campania",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Scala est une commune de la province de Salerne dans la région Campanie en Italie."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Scala (Italie)"
+    },
+    "lat" : "40.65000152587890625",
+    "long" : "14.600000381469726562"
+  }, {
+    "@id" : "dbr:Split,_Croatia",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Split (grec ancien : Ασπάλαθος, Aspálathos, latin : Spalatum, italien : Spalato) est la seconde ville la plus peuplée de Croatie et le siège du Comitat de Split-Dalmatie. Au recensement de 2011, le comitat comptait 454 798 habitants, la municipalité 178 102 habitants, dont 96,23 % de Croates et la ville seule comptait 167 121 habitants. La ville de Split s'est établie à l'intérieur, puis autour de l'immense palais de l'empereur romain Dioclétien, construit entre 294 et 305, qui s'étendait sur une surface de 39 000 m2. L'empereur était originaire de la ville de Salone (située sur les hauteurs de Split). En 1420, Split fut intégrée dans la République de Venise, jusqu'à sa disparition en 1797. La ville est aujourd'hui inscrite sur la liste du patrimoine mondial par l'UNESCO. C'est un grand port, industriel et touristique de la côte dalmate."
+    },
+    "subject" : "dbc:Split,_Croatia",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Split"
+    },
+    "lat" : "43.509998321533203125",
+    "long" : "16.450000762939453125"
+  }, {
+    "@id" : "dbr:Strombolicchio",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "L'Île de Strombolicchio est un îlot faisant partie de l'archipel des Îles Éoliennes, au Nord de la Sicile."
+    },
+    "subject" : "dbc:Aeolian_Islands",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Strombolicchio"
+    },
+    "lat" : "38.81722259521484375",
+    "long" : "15.251667022705078125"
+  }, {
+    "@id" : "dbr:Syracuse,_Sicily",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Syracuse (Siracusa en Italien, Sarausa en sicilien) est une ville italienne d'environ 123 000 habitants située sur la côte, au sud-est de la Sicile. Syracuse fut fondée au VIIIe siècleav. J.-C. par des colons grecs venant de Corinthe. Elle est aujourd'hui la principale ville de la province de Syracuse. Cicéron la présenta comme la plus grande et la plus belle des villes grecques. Depuis 2005, son centre historique fait partie du patrimoine mondial de l'humanité établi par l'Unesco."
+    },
+    "subject" : "dbc:Syracuse,_Sicily",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Syracuse"
+    },
+    "lat" : "37.083332061767578125",
+    "long" : "15.283333778381347656"
+  }, {
+    "@id" : "dbr:Tramonti,_Campania",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Tramonti est une commune italienne de la province de Salerne dans la région Campanie en Italie."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Tramonti"
+    },
+    "lat" : "40.700000762939453125",
+    "long" : "14.633333206176757812"
+  }, {
+    "@id" : "dbr:Valea_Viilor",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Valea Viilor (en allemand Wurmloch, en hongrois Nagybaromlak) est une commune du județ de Sibiu, en Transylvanie, Roumanie."
+    },
+    "subject" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Valea Viilor"
+    },
+    "lat" : "46.083099365234375",
+    "long" : "24.276899337768554688"
+  }, {
+    "@id" : "dbr:Valletta",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "La Valette, en maltais Il-Belt Valletta ou plus simplement Valletta, distinguée par le titre de Città Umilissima, est la capitale de la République de Malte. Située sur la côte nord-est de l'île de Malte, peuplée d'environ 6 600 habitants, les Beltin (au singulier : masculin Belti, féminin Beltija), c'est le lieu d'un conseil municipal (Kunsill Lokali) compris dans la région (Reġjun) Nofsinhar. La Valette est construite à partir de 1566 par la volonté des grands maîtres de l'ordre hospitalier de Saint-Jean de Jérusalem, maîtres de l'archipel de 1530 à 1798. La ville comporte de nombreux bâtiments de cette époque : on y recense 320 monuments sur une superficie de 55 hectares, concentration exceptionnelle dans le monde. La ville est inscrite sur la liste du patrimoine mondial de l'humanité (liste de l'UNESCO) depuis 1980 et sera capitale européenne de la culture en 2018."
+    },
+    "subject" : "dbc:Valletta",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "La Valette"
+    },
+    "lat" : "35.897777557373046875",
+    "long" : "14.512499809265136719"
+  }, {
+    "@id" : "dbr:Vietri_sul_Mare",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Vietri sul Mare est une commune italienne de la province de Salerne en Campanie."
+    },
+    "subject" : "dbc:Amalfi_Coast",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Vietri sul Mare"
+    },
+    "lat" : "40.666667938232421875",
+    "long" : "14.733333587646484375"
+  }, {
+    "@id" : "dbr:Český_Krumlov",
+    "@type" : "dbo:PopulatedPlace",
+    "abstract" : {
+      "@language" : "fr",
+      "@value" : "Český Krumlov (en allemand : Krumau) est une petite ville médiévale de la région de Bohême-du-Sud, en République tchèque, et le chef-lieu du district de Český Krumlov. Sa population s'élevait à 13 193 habitants en 2015. Le centre historique de Český Krumlov est classé au patrimoine mondial par l'Unesco."
+    },
+    "subject" : "dbc:Český_Krumlov",
+    "label" : {
+      "@language" : "fr",
+      "@value" : "Český Krumlov"
+    },
+    "lat" : "48.8166656494140625",
+    "long" : "14.316666603088378906"
+  } ],
+  "@context" : {
+    "subject" : {
+      "@id" : "http://purl.org/dc/terms/subject",
+      "@type" : "@id"
+    },
+    "long" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "lat" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "abstract" : {
+      "@id" : "http://dbpedia.org/ontology/abstract"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "dbo" : "http://dbpedia.org/ontology/",
+    "geo" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "dct" : "http://purl.org/dc/terms/",
+    "dbc" : "http://dbpedia.org/resource/Category:",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dbr" : "http://dbpedia.org/resource/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}
+

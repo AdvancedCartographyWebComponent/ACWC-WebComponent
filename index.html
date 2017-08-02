@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -14,10 +14,86 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script>
+      //mapDataUrl = "https://sementicbus-simonzen.rhcloud.com/data/api/PlateformeWebAlternativeACWC";
+      //treeDataUrl = "https://semanticbus.cleverapps.io/data/api/TaxonomiePWA";
+      mapContext = {
+        "center":[48.836703,2.334345],
+        "zoom": 6
+      };
+      infoKeyForTable=[
+        {"key":"Subject","displayValue":"Subject"},
+        {"key":"Name","displayValue":"Name"},
+        {"key":'markerAndIcons',"displayValue":'Icons'}
+      ];
+      infoKeyForPanel=[
+        {"key":"Subject","displayValue":"Subject"},
+        {"key":"Name","displayValue":"Name"},
+        {"key":"Abstract","displayValue":"Abstract"}];
+
+      /*var params = {
+          "infoKeyForTable":[
+            {"key":"Subject","displayValue":"Subject"},
+            {"key":"Name","displayValue":"Name"},
+            {"key":"markerAndIcons","displayValue":"Icons"}
+          ],
+          "infoKeyForPanel":[
+            {"key":"Subject","displayValue":"Subject"},
+            {"key":"Abstract","displayValue":"Abstract"},
+            {"key":"Name","displayValue":"Name"},
+
+          ],
+          "mapContext": {
+            "center":[48.836703,2.334345],
+            "zoom": 6
+          },
+          "mapDataUrl":"https://sementicbus-simonzen.rhcloud.com/data/api/PlateformeWebAlternativeACWC",
+          "treeDataUrl" : "https://semanticbus.cleverapps.io/data/api/TaxonomiePWA"
+        };*/
+    </script>
+
   </head>
   <body>
-    <div id="root"></div>
-    <div id="test"></div>
+    <div>
+	     <div id="tree" style="
+    	display: inline-block;
+    	border: 1px solid gainsboro;
+    	margin-top: 10px;
+    	height: 95vh;
+    	width: 25%;
+    	position: relative;"></div>
+    	<div id="carte" style="
+   	 display: inline-block;
+   	 border: 1px solid gainsboro;
+   	 margin: 10px;
+   	 height: 95vh;
+     width: 70%;
+   	 position: absolute;
+     transition : 0.5s;
+     z-index : 0;"></div>
+     <div id="sidebar" style="
+     display: inline-block;
+     margin-top: 10px;
+     height: 95vh;
+     width: 28%;
+     position: absolute;
+     right : 0px;
+     transition : 0.2s;
+     z-index : -1">
+     </div>
+     <div id="table" style="
+     width: 71%;
+     position: absolute;
+     bottom: 29px;
+     z-index: 20;
+     left: 26%;
+     border: 1px solid gainsboro;
+     transition : 0.5s;
+     right : 0px;
+     background:white">
+     </div>
+    </div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

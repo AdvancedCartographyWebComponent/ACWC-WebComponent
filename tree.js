@@ -1,7 +1,7 @@
-var api = require('./src/TreeMenu.js');
+var api = require('./src/tree/TreeMenu.js');
 
-api.TreeMenu = require('./src/TreeMenu.js');
-api.TreeNode = require('./src/TreeNode.js');
-api.Utils = require('./src/TreeMenuUtils');
+api.TreeMenu = require('./src/tree/TreeMenu.js');
+api.TreeNode = require('./src/tree/TreeNode.js');
+api.Utils = require('./src/tree/TreeMenuUtils');
 
 module.exports = api;

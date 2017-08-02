@@ -1,0 +1,512 @@
+{
+  "@graph" : [ {
+    "@id" : "dbc:Abbey_of_Saint_Gall",
+    "broader" : "dbc:World_Heritage_Sites_in_Switzerland",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Abbey of Saint Gall"
+    }
+  }, {
+    "@id" : "dbc:Aeolian_Islands",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Aeolian Islands"
+    }
+  }, {
+    "@id" : "dbc:Amalfi_Coast",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Amalfi Coast"
+    }
+  }, {
+    "@id" : "dbc:Aquileia",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Aquileia"
+    }
+  }, {
+    "@id" : "dbc:Banditaccia_necropolis",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Banditaccia necropolis"
+    }
+  }, {
+    "@id" : "dbc:Bay_of_Kotor",
+    "broader" : "dbc:World_Heritage_Sites_in_Montenegro",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Bay of Kotor"
+    }
+  }, {
+    "@id" : "dbc:Churches_of_Göreme",
+    "broader" : "dbc:World_Heritage_Sites_in_Turkey",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Churches of Göreme"
+    }
+  }, {
+    "@id" : "dbc:Churches_of_Moldavia",
+    "broader" : "dbc:World_Heritage_Sites_in_Romania",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Churches of Moldavia"
+    }
+  }, {
+    "@id" : "dbc:Cilento",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cilento"
+    }
+  }, {
+    "@id" : "dbc:Dacian_fortresses_of_the_Orăștie_Mountains",
+    "broader" : "dbc:World_Heritage_Sites_in_Romania",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dacian fortresses of the Orăștie Mountains"
+    }
+  }, {
+    "@id" : "dbc:Delos",
+    "broader" : "dbc:World_Heritage_Sites_in_Greece",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Delos"
+    }
+  }, {
+    "@id" : "dbc:Diyarbakır",
+    "broader" : "dbc:World_Heritage_Sites_in_Turkey",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Diyarbakır"
+    }
+  }, {
+    "@id" : "dbc:Dolomites",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dolomites"
+    }
+  }, {
+    "@id" : "dbc:Dubrovnik",
+    "broader" : "dbc:World_Heritage_Sites_in_Croatia",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dubrovnik"
+    }
+  }, {
+    "@id" : "dbc:Florence",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Florence"
+    }
+  }, {
+    "@id" : "dbc:Genoa",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Genoa"
+    }
+  }, {
+    "@id" : "dbc:Herculaneum_(ancient_city)",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Herculaneum (ancient city)"
+    }
+  }, {
+    "@id" : "dbc:Historic_Monuments_of_Novgorod_and_Surroundings",
+    "broader" : "dbc:World_Heritage_Sites_in_Russia",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Historic Monuments of Novgorod and Surroundings"
+    }
+  }, {
+    "@id" : "dbc:Kotor",
+    "broader" : "dbc:World_Heritage_Sites_in_Montenegro",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Kotor"
+    }
+  }, {
+    "@id" : "dbc:Lake_Baikal",
+    "broader" : "dbc:World_Heritage_Sites_in_Russia",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Lake Baikal"
+    }
+  }, {
+    "@id" : "dbc:Medici_villas",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Medici villas"
+    }
+  }, {
+    "@id" : "dbc:Meteora",
+    "broader" : "dbc:World_Heritage_Sites_in_Greece",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Meteora"
+    }
+  }, {
+    "@id" : "dbc:Monterozzi_necropolis",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Monterozzi necropolis"
+    }
+  }, {
+    "@id" : "dbc:Mount_Athos",
+    "broader" : "dbc:World_Heritage_Sites_in_Greece",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Mount Athos"
+    }
+  }, {
+    "@id" : "dbc:Mudéjar_architecture_in_Aragon",
+    "broader" : "dbc:World_Heritage_Sites_in_Spain",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Mudéjar architecture in Aragon"
+    }
+  }, {
+    "@id" : "dbc:Museum_Island",
+    "broader" : "dbc:World_Heritage_Sites_in_Germany",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Museum Island"
+    }
+  }, {
+    "@id" : "dbc:Mystras",
+    "broader" : "dbc:World_Heritage_Sites_in_Greece",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Mystras"
+    }
+  }, {
+    "@id" : "dbc:Nesebar",
+    "broader" : "dbc:World_Heritage_Sites_in_Bulgaria",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Nesebar"
+    }
+  }, {
+    "@id" : "dbc:Paestum_(ancient_city)",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Paestum (ancient city)"
+    }
+  }, {
+    "@id" : "dbc:Palladian_villas_of_Veneto",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Palladian villas of Veneto"
+    }
+  }, {
+    "@id" : "dbc:Pompeii_(ancient_city)",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pompeii (ancient city)"
+    }
+  }, {
+    "@id" : "dbc:Prehistoric_pile_dwellings_in_Switzerland",
+    "broader" : "dbc:World_Heritage_Sites_in_Switzerland",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Prehistoric pile dwellings in Switzerland"
+    }
+  }, {
+    "@id" : "dbc:Ravenna",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Ravenna"
+    }
+  }, {
+    "@id" : "dbc:Residences_of_the_Royal_House_of_Savoy",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Residences of the Royal House of Savoy"
+    }
+  }, {
+    "@id" : "dbc:Rome",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Rome"
+    }
+  }, {
+    "@id" : "dbc:Sacri_Monti",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sacri Monti"
+    }
+  }, {
+    "@id" : "dbc:San_Gimignano",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "San Gimignano"
+    }
+  }, {
+    "@id" : "dbc:Split,_Croatia",
+    "broader" : "dbc:World_Heritage_Sites_in_Croatia",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Split, Croatia"
+    }
+  }, {
+    "@id" : "dbc:Stelling_van_Amsterdam",
+    "broader" : "dbc:World_Heritage_Sites_in_the_Netherlands",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Stelling van Amsterdam"
+    }
+  }, {
+    "@id" : "dbc:Syracuse,_Sicily",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Syracuse, Sicily"
+    }
+  }, {
+    "@id" : "dbc:Val_d'Orcia",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Val d'Orcia"
+    }
+  }, {
+    "@id" : "dbc:Valle_dei_Templi",
+    "broader" : "dbc:World_Heritage_Sites_in_Italy",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Valle dei Templi"
+    }
+  }, {
+    "@id" : "dbc:Valletta",
+    "broader" : "dbc:World_Heritage_Sites_in_Malta",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Valletta"
+    }
+  }, {
+    "@id" : "dbc:Villages_with_fortified_churches_in_Transylvania",
+    "broader" : "dbc:World_Heritage_Sites_in_Romania",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Villages with fortified churches in Transylvania"
+    }
+  }, {
+    "@id" : "dbc:Wooden_churches_of_Maramureș",
+    "broader" : "dbc:World_Heritage_Sites_in_Romania",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Wooden churches of Maramureș"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Austria",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Austria"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Bulgaria",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Bulgaria"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Catalonia",
+    "broader" : "dbc:World_Heritage_Sites_in_Spain",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Catalonia"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Croatia",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Croatia"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Curaçao",
+    "broader" : "dbc:World_Heritage_Sites_in_the_Netherlands",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Curaçao"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_England",
+    "broader" : "dbc:World_Heritage_Sites_in_the_United_Kingdom",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in England"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Germany",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Germany"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Greece",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Greece"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Ireland",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Ireland"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Italy",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Italy"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Malta",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Malta"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Montenegro",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Montenegro"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Northern_Ireland",
+    "broader" : [ "dbc:World_Heritage_Sites_in_the_United_Kingdom", "dbc:World_Heritage_Sites_in_Ireland" ],
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Northern Ireland"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Romania",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Romania"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Russia",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Russia"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Scotland",
+    "broader" : "dbc:World_Heritage_Sites_in_the_United_Kingdom",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Scotland"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Spain",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Spain"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Switzerland",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Switzerland"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Turkey",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Turkey"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Vienna",
+    "broader" : "dbc:World_Heritage_Sites_in_Austria",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Vienna"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_Wales",
+    "broader" : "dbc:World_Heritage_Sites_in_the_United_Kingdom",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in Wales"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_the_Czech_Republic",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in the Czech Republic"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_the_Netherlands",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in the Netherlands"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_the_Republic_of_Ireland",
+    "broader" : "dbc:World_Heritage_Sites_in_Ireland",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in the Republic of Ireland"
+    }
+  }, {
+    "@id" : "dbc:World_Heritage_Sites_in_the_United_Kingdom",
+    "broader" : "dbc:World_Heritage_Sites_in_Europe",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "World Heritage Sites in the United Kingdom"
+    }
+  }, {
+    "@id" : "dbc:Český_Krumlov",
+    "broader" : "dbc:World_Heritage_Sites_in_the_Czech_Republic",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Český Krumlov"
+    }
+  } ],
+  "@context" : {
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "dbc" : "http://dbpedia.org/resource/Category:",
+    "skos" : "http://www.w3.org/2004/02/skos/core#"
+  }
+}
+
